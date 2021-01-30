@@ -97,37 +97,9 @@ class View {
   	} else {
   		// create a "card" for each staff member
   		staff.forEach(staffMbr => {
-  			const div = this.createElement('div');						// contains each card
-  			div.style.width = '16rem';									// standardize the card width
-  			div.style.height = '28rem';									// and the height
-  			div.style.borderRadius = '0.6rem';
-  			div.className = 'd-flex flex-column  align-content-start shadow-lg p-2 staff-card';
-  			div.id = staffMbr.id;
-  			const cardImage = this.createElement('img');				// card image
-  			cardImage.src = staffMbr.imageURL;
-  			cardImage.className = 'card-img-top mx-auto';
-  			cardImage.style.width = '15rem';
-  			cardImage.style.height = '15rem';
-  			cardImage.style.objectFit = 'cover';
-  			cardImage.style.borderRadius = '0.5rem';
-  			cardImage.alt = `Photo of ${staffMbr.rank} ${staffMbr.name}`;
-  			const cardBody = this.createElement('div', 'card-body'); 	// main card
-  			const cardTitle = this.createElement('h5', 'card-title');	// title (position)
-  			cardTitle.innerHTML = staffMbr.position;
-   			const cardSubTitle = this.createElement('h6');				// subtitle (rank, name)
-   			cardSubTitle.className = 'card-subtitle mb-2 text-muted';
-   			cardSubTitle.innerHTML = `${staffMbr.rank} ${staffMbr.name}`;
-   			const cardText = this.createElement('p', 'card-text');		// card content (small bio)
-   			cardText.innerHTML = staffMbr.bio;
-			const button = this.createElement('button');
-			button.href = '';
-			button.onclick = function() {app.view.openModal(staffMbr);};
-			button.className = 'btn btn-primary mt-auto';
-			button.innerHTML = 'Read Bio';			
-   			//add the staff member to the list
-  			cardBody.append(cardTitle, cardSubTitle, cardText);			// content => card
-  			div.append(cardImage, cardBody, button);							// image and card => container
-  			this.staffContainer.append(div);							// container => actual page
+                const mbrCard = this.createElement('staff-card');
+                mbrCard.member = staffMbr;
+                this.staffContainer.append(mbrCard);
   		})
   	}
   }

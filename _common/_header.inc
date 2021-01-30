@@ -24,6 +24,8 @@
 	      <form class="d-inline-flex" method="get" action="http://index.mil.ca/Srch.aspx?">
 	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="UsrQue" id="gcwu-srch">
 	        <button class="btn btn-outline-light" value="Search" type="submit" name="Action" id="gcwu-srch-submit">Search</button>
+			<input name="lang" value="en-CA" type="hidden">
+			<input name="ParamSources" value="12+Wing__12e+Escadre" type="hidden">
 	      </form>
 	    </div>
 	      <ul class="navbar-nav me-auto mb-2 mb-md-0">

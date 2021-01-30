@@ -10,15 +10,6 @@
     <link href="_css/app.css" rel="stylesheet">
     
     
-<form method="get" action="http://index.mil.ca/Srch.aspx?">
-<div id="gcwu-srchbx-in">
-<label for="gcwu-srch">Search website</label>
-<input maxlength="150" size="27" value="" type="search" name="UsrQue" id="gcwu-srch">
-<input data-icon="search" value="Search" type="submit" name="Action" id="gcwu-srch-submit">
-<input name="lang" value="en-CA" type="hidden">
-<input name="ParamSources" value="12+Wing__12e+Escadre" type="hidden">
-</div>
-</form>
     <title>406 Experimental</title>
   </head>
   <body>
@@ -32,7 +23,7 @@
 	</div>
 	<!-- CONTENT END --!>
 
-	<!-- THIS IS OUR POPUP, NORMALLY HIDDEN -->
+	<!-- THIS IS OUR POPUP, ONLY APPEARS WHEN ACTIVATED -->
 	<div class="modal fade" id="mainModal" tabindex="-1" aria-labelledby="mainModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 	<div class="modal-content">
@@ -51,9 +42,11 @@
 	</div>
 	<!-- POPUP END -->
 
-    <!-- Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle and our Site's JS Code -->
     <script src="_js/bootstrap.bundle.min.js"></script>
-    <script src="app.js"></script>
+	<script src="webcomponents/card.js"></script>
+	<script src="app.js"></script>
+
 
   </body>
 </html>
