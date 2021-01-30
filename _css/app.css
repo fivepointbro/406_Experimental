@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url(/_12wWet/theme-gcwu-fegc/assets/header-leaf.jpg),url(/_12wWet/theme-gcwu-fegc/assets/header-bg.jpg);
+	background-position: center 3.3em;
+	background-repeat: no-repeat,repeat-x;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-content {
+	background-color: white;
+	position: relative;
+	top: 200px;
+}
+
+.staff-card {
+	transition: all .2s;
+}
+
+.staff-card:hover {
+	background-color: #f5f5f5;
+}
