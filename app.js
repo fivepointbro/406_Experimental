@@ -12,7 +12,7 @@ class Model {
   		position: 'Commanding Officer', 
   		bio: `This is the commanding officer's biography`, 
   		longbio: `Some of these people have really long bios, so this is where that would go.`,
-  		imageURL: 'images/CO.jpg',
+  		imageURL: './images/CO.jpg',
   		},
   		{
   		id: 2, 
@@ -21,7 +21,7 @@ class Model {
   		position: 'Squadron Chief', 
   		bio: `This is the chief's biography`,
   		longbio: `This is definitely one of those people would have a really long biography.`,
-  		imageURL: 'images/CWO.jpg',
+  		imageURL: './images/CWO.jpg',
   		},
   	]
   }
@@ -126,7 +126,7 @@ const app = new Controller(new Model(), new View());
 export default app;
 
 //************************************************************************************************************** [ROUTER] Let's make a router? This is going to be interesting
-history.pushState(null, null, '/');
+history.pushState(null, null, './');
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -134,14 +134,17 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: '/', view: () => console.log('viewing main page') },
-        { path: '/link', view: () => console.log('viewing link page') },
+        { path: './', view: () => console.log('viewing main page') },
+        { path: './link', view: () => console.log('viewing link page') },
     ];
+    
+    //this one looks ugly but it allows this app to be deployed on any server, rather than having to change the URL path it just figures it out on its own
+    const relativePath = './' + location.pathname.split('/')[location.pathname.split('/').length - 1]; // Just grabs the last bit after the last slash
 
     const potentialMatches = routes.map(route => {
         return {
             route: route,
-            isMatch: location.pathname == route.path
+            isMatch: relativePath == route.path
         };
     });
 
@@ -153,7 +156,7 @@ const router = async () => {
         };
     };
 
-    console.log(match.route.view());
+    match.route.view();
 };
 
 window.addEventListener('popstate', router);
