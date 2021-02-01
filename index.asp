@@ -15,7 +15,7 @@
   <body>
   
 	<!-- NAVBAR START -->
-	<!--#include file="_common/_header.inc"-->
+	<nav-bar page="home"></nav-bar>
 	<!-- NAVBAR END -->
 
 	<!-- MAIN BODY CONTENT -->
@@ -44,7 +44,8 @@
 
     <!-- Bootstrap Bundle and our Site's JS Code -->
     <script src="_js/bootstrap.bundle.min.js"></script>
-	<script src="webcomponents/card.js"></script>
+	<script src="_common/Navbar/navbar.js"></script>
+	<script src="webcomponents/Card/card.js"></script>
 	<script src="app.js"></script>
 
 
