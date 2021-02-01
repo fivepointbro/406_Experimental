@@ -14,7 +14,7 @@ export default class NavBar extends HTMLElement {
         this.getTemplate()
             .then(function (response) {
                 const clone = response;
-                clone.getElementById(page).classList.add('active');
+                clone.getElementById('link-' + page).classList.add('active');
                 menu.appendChild(clone);
             })
     }
@@ -36,9 +36,13 @@ export default class NavBar extends HTMLElement {
 
     attributeChangedCallback(name, oldValue, newValue) {
     	const menu = document.getElementById('navbar');
-    	const currentLink = menu.querySelector(newValue);
-    	const oldLink = menu.querySelector(oldValue);
-    	console.log(currentLink, oldLink);		
+    	if (menu.hasChildNodes()) {
+    	    	document.getElementById('link-' + oldValue).classList.remove('active');
+    	    	document.getElementById('link-' + newValue).classList.add('active');	
+    	}else{
+    			// no big deal, just do nothing
+    	}
+    	
     }
 };
 
