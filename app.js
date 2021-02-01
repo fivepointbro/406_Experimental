@@ -1,3 +1,6 @@
+import NavBar from './_common/Navbar/navbar.js';
+import StaffCard from './webcomponents/Card/card.js';
+
 //************************************************************************************************************** [MODEL] Deals with data
 class Model {
   constructor() {
@@ -120,3 +123,47 @@ class Controller {
 }
 
 const app = new Controller(new Model(), new View());
+export default app;
+
+//************************************************************************************************************** [ROUTER] Let's make a router? This is going to be interesting
+history.pushState(null, null, '/');
+const navigateTo = url => {
+    history.pushState(null, null, url);
+    router();
+};
+
+const router = async () => {
+    const routes = [
+        { path: '/', view: () => console.log('viewing main page') },
+        { path: '/link', view: () => console.log('viewing link page') },
+    ];
+
+    const potentialMatches = routes.map(route => {
+        return {
+            route: route,
+            isMatch: location.pathname == route.path
+        };
+    });
+
+    let match = potentialMatches.find(potentialMatch => potentialMatch.isMatch);
+    if (!match) {
+        match = {
+            route: routes[0],
+            isMatch: true,
+        };
+    };
+
+    console.log(match.route.view());
+};
+
+window.addEventListener('popstate', router);
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('click', e => {
+        if (e.target.matches('[data-link]')) {
+            e.preventDefault();
+            navigateTo(e.target.href);
+        };
+    })
+    router();
+});

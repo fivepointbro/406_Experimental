@@ -1,4 +1,4 @@
-class NavBar extends HTMLElement {
+export default class NavBar extends HTMLElement {
 
     constructor() {
         super();

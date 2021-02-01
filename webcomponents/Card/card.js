@@ -1,4 +1,6 @@
-class StaffCard extends HTMLElement {
+import app from '/app.js';
+
+export default class StaffCard extends HTMLElement {
 
     constructor() {
         super();
