@@ -34,8 +34,11 @@ export default class NavBar extends HTMLElement {
             })
     }
 
-    setActive(page) {
-
+    attributeChangedCallback(name, oldValue, newValue) {
+    	const menu = document.getElementById('navbar');
+    	const currentLink = menu.querySelector(newValue);
+    	const oldLink = menu.querySelector(oldValue);
+    	console.log(currentLink, oldLink);		
     }
 };
 
