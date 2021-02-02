@@ -1,5 +1,3 @@
-import app from '/app.js';
-
 export default class StaffCard extends HTMLElement {
 
     constructor() {
@@ -16,10 +14,10 @@ export default class StaffCard extends HTMLElement {
                 cardDiv[1].children[0].innerText = member.position;
                 cardDiv[1].children[1].innerText = `${member.rank} ${member.name}`;
                 cardDiv[1].children[2].innerText = member.bio;
-                cardDiv[2].onclick = function () { app.view.openModal(member); }
+                cardDiv[2].onclick = function () { card.openModal(member); }
                 card.appendChild(clone);
             })
-    }
+    };
 
     getTemplate() {
         return fetch('./webcomponents/Card/card.html') // <-- template filename in here
@@ -34,11 +32,20 @@ export default class StaffCard extends HTMLElement {
             .catch(function (err) {
                 console.log(err)
             })
-    }
+    };
 
-    handleClick() {
-        console.log('clicked');
-    }
+    openModal(staffMbr) {
+        const mainModal = document.getElementById('mainModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalText = document.getElementById('modalText');
+
+        modalTitle.innerHTML = `${staffMbr.rank} ${staffMbr.name}`;
+        modalText.innerHTML = staffMbr.longbio;
+
+        var newModal = new bootstrap.Modal(mainModal);
+        newModal.show();
+    };
+
 };
 
 customElements.define('staff-card', StaffCard);

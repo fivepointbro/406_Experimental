@@ -35,12 +35,11 @@ export default class NavBar extends HTMLElement {
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-    	const menu = document.getElementById('navbar');
-    	if (menu.hasChildNodes()) {
+    	if (this.hasChildNodes()) {
     	    	document.getElementById('link-' + oldValue).classList.remove('active');
     	    	document.getElementById('link-' + newValue).classList.add('active');	
     	}else{
-    			// no big deal, just do nothing
+    			// no big deal, DOM just isn't fully loaded yet
     	}
     	
     }
