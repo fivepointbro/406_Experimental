@@ -21,8 +21,8 @@ export default class Linkview extends HTMLElement {
             .then(function (response) {
                 const clone = response;
                 view.appendChild(clone);
-                //view.getData(); <-- don't have any yet
-                view.onDataChanged() // normally wouldn't call this manually
+                //view.getData(); <-- don't have any yet but this is what we'd usually call
+                view.onDataChanged() // normally wouldn't call this manually since it's part of getData
             })
     }
 
@@ -61,7 +61,7 @@ export default class Linkview extends HTMLElement {
     }
 
     displayElements(all) {
-        document.getElementById('title').textContent = this.title;    
+        // not actually doing anything with the template here  
     }
 
 };
