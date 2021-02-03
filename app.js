@@ -1,7 +1,11 @@
+//************************************************************************************************************** [IMPORTS] We need to make sure every component we use is imported
+//********** [Helper] This contains a collection of 'helper' methods/functions that the app will use
+import Helper from './_js/helpers.js';
+//********** [Components] We do these first because they may be used inside of our views
 import NavBar from './_common/Navbar/navbar.js';
 import Footer from './_common/Footer/footer.js';
 import StaffCard from './webcomponents/Card/card.js';
-
+//********** [Views] These are our "pages"
 import Homeview from './views/home/home.js';
 import Linkview from './views/link/link.js';
 
@@ -80,9 +84,6 @@ class Router {
 
 }
 
-
-//************************************************************************************************************** [APP] Believe it or not, this small handful of lines sets off the rest of the code
-
 function listeners() {
 
     document.addEventListener('click', e => {
@@ -95,4 +96,9 @@ function listeners() {
     });
 }
 
+//************************************************************************************************************** [APP] This is the app-specific code
+
+//********** [Helper] This is scoped to the browser window so you can even use helper functions in console
+window.$ = new Helper();
+//********** [APP] Start the app.. no really, that's all it takes
 const app = new Router();
