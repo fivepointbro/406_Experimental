@@ -26,18 +26,8 @@ export default class Homeview extends HTMLElement {
     }
 
     getTemplate() {
-        return fetch(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
-            .then(function (response) {
-                return response.text();
-            }).then(function (html) {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.getElementById('view');
-                return template.content.cloneNode(true);
-            })
-            .catch(function (err) {
-                console.log(err)
-            })
+        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
+        return html
     }
 
     getData() {

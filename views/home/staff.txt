@@ -6,7 +6,7 @@
     "position": "Commanding Officer",
     "bio": "This is the commanding officer's biography",
     "longbio": "Some of these people have really long bios, so this is where that would go.",
-    "imageURL": "./images/CO.jpg"
+    "imageURL": "./views/home/images/CO.jpg"
   },
   {
     "id": 2,
@@ -15,6 +15,6 @@
     "position": "Squadron Chief",
     "bio": "This is the chief's biography",
     "longbio": "This is definitely one of those people would have a really long biography.",
-    "imageURL": "./images/CWO.jpg"
+    "imageURL": "./views/home/images/CWO.jpg"
   }
 ]
