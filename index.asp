@@ -43,7 +43,7 @@
 	<!-- POPUP END -->
 
 	<!-- FOOTER -->
-	<foot-bar></foot-bar>
+	<foot-bar id="footbar"></foot-bar>
 	<!-- FOOTER END -->
 
 	<!-- Bootstrap Bundle and our Site's JS Code -->

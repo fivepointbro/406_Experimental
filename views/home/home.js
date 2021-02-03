@@ -75,8 +75,8 @@ export default class Homeview extends HTMLElement {
             // create a "card" for each staff member
             all.forEach(staffMbr => {
                 const mbrCard = document.createElement('staff-card');
-                mbrCard.member = staffMbr;
                 staffContainer.append(mbrCard);
+                mbrCard.setMember(staffMbr);
             })
         }
     }

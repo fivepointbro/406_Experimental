@@ -9,26 +9,16 @@ import Linkview from './views/link/link.js';
 
 class Router {
 
-    url = '';
-    routes = [];
-    root = './';
+    routes = [
+        { slug: 'home', path: './', view: 'home-view' },
+        { slug: 'link', path: './link', view: 'link-view' },
+    ];
     loaded = false;
 
-    appWindow = {};
+    appWindow = document.getElementById('page-content');
 
     constructor() {
-        this.appWindow = document.getElementById('page-content');
-        this.routes = this.getRoutes();
-        this.url = this.getRelativePath();
-        this.navigateTo(this.url);
-    };
-
-    getRoutes() {
-        const routes = [
-            { slug: 'home', path: './', view: 'home-view' },
-            { slug: 'link', path: './link', view: 'link-view' },
-        ];
-        return routes;
+        this.navigateTo(this.routes[0].path); // defaults to home when it's first constructed
     };
 
     getRelativePath() {
@@ -37,6 +27,7 @@ class Router {
     }
 
     navigateTo(url) {
+        const router = this;
         history.pushState(null, null, url);
         const relPath = this.getRelativePath();
         const potentialMatches = this.routes.map(route => {
@@ -49,39 +40,49 @@ class Router {
 
         let match = potentialMatches.find(potentialMatch => potentialMatch.isMatch);
         if (!match) {
-            match = {
-                slug: routes[0],
-                view: routes[0],
-                isMatch: true,
-            };
+            router.navigateTo(router.routes[0].path);
         };
+
+        this.displayView(match.view, match.slug);
+    };
+
+    displayView(view, slug) {
+
+        const router = this;
 
         while (this.appWindow.firstChild) {
             this.appWindow.removeChild(this.appWindow.firstChild);
         }
 
-        let requestedView = match.view;
-        this.appWindow.append(document.createElement(requestedView));
+        this.appWindow.append(document.createElement(view));
 
-        document.getElementById('navbar').setAttribute('page', match.slug);
+        document.getElementById('navbar').setAttribute('page', slug);
 
-        if (!this.loaded) {
-            //************** [FIRST PAGE LOAD] Things that MUST wait until the very end!
-            document.addEventListener('DOMContentLoaded', () => {
-                document.addEventListener('click', e => {
-                    if (e.target.matches('[data-link]')) {
-                        e.preventDefault();
-                        app.navigateTo(e.target.href);
-                    };
-                });
-                // other stuff can go here if need be
-            });
-            this.loaded;
-        }
-    }
+        if (!router.loaded) {
+            router.addListeners()
+        };
+    };
+
+    addListeners() {
+        this.loaded = true;
+        listeners();
+    };
 
 }
 
 
-//************************************************************************************************************** [APP] Believe it or not, this one line is what 'starts' the whole website
-const app = new Router;
+//************************************************************************************************************** [APP] Believe it or not, this small handful of lines sets off the rest of the code
+
+function listeners() {
+
+    document.addEventListener('click', e => {
+        if (e.target.matches('[data-link]')) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            app.navigateTo(e.target.href);
+        };
+    });
+}
+
+const app = new Router();

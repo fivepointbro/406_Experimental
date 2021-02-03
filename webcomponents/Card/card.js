@@ -1,22 +1,32 @@
 export default class StaffCard extends HTMLElement {
 
+    member = {};
+
     constructor() {
         super();
     };
 
-    set member(member) {
+    setMember(member) {
         const card = this;
         this.getTemplate()
             .then(function (response) {
                 const clone = response;
-                const cardDiv = clone.children[0].children;
-                cardDiv[0].src = member.imageURL;
-                cardDiv[1].children[0].innerText = member.position;
-                cardDiv[1].children[1].innerText = `${member.rank} ${member.name}`;
-                cardDiv[1].children[2].innerText = member.bio;
-                cardDiv[2].onclick = function () { card.openModal(member); }
+                clone.querySelector('[data-image]').src = member.imageURL;
+                clone.querySelector('[data-title]').textContent = member.position;
+                clone.querySelector('[data-subtitle]').textContent = `${member.rank} ${member.name}`;
+                clone.querySelector('[data-bio]').textContent = member.bio;
+                clone.querySelector('button').onclick = function () { card.openModal(member); };
                 card.appendChild(clone);
-            })
+            })    };
+
+    connectedCallback() {
+        //const menu = this;        
+        //this.getTemplate()
+        //    .then(function (response) {
+        //        const clone = response;
+        //        console.log(clone.querySelectorAll('div'))
+        //        menu.appendChild(clone);
+        //    })
     };
 
     getTemplate() {
@@ -26,8 +36,8 @@ export default class StaffCard extends HTMLElement {
             }).then(function (html) {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.getElementById('component');
-                return template.content.cloneNode(true);
+                const template = doc.querySelector('body').firstChild;
+                return template.cloneNode(true);
             })
             .catch(function (err) {
                 console.log(err)
