@@ -8,7 +8,7 @@
 	<!-- Bootstrap and app CSS -->
 	<link href="_css/bootstrap.css" rel="stylesheet">
 	<link href="_css/app.css" rel="stylesheet">
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" type="image/png" href="favicon.png">
 
 
 	<title>406 Experimental</title>
