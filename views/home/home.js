@@ -3,7 +3,7 @@ export default class Homeview extends HTMLElement {
     // Every view will have these
     title = 'Showing Off Command Staff';
     slug = 'home';  // easy identifier
-    data = 'staff.json'; // name of data file, in same folder
+    data = 'staff.txt'; // name of data file, in same folder
     location = './views/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
     url = './'; // must match one of the "routes" in the "router.js" file
 
