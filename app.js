@@ -57,7 +57,17 @@ class Router {
         this.appWindow.append(document.createElement(view));
 
         document.getElementById('navbar').setAttribute('page', slug);
+        const bar = document.getElementById('navbarCollapse');
+		if (bar) {
+		const hidebar = new bootstrap.Collapse(bar, { hide: true });
+		}
+        
 
+		// the router has loaded the page, set the navbar active link to white text, and closed the navbar 
+		// if this is the first time we've loaded a page, we will run the function that adds special listeners
+		// this changes link behavior on our site-specific links to not reload the page or query the server
+		// this is the core function of our router, because all "views" (pages) are actually client-side
+		// once the website is loaded, it can continue to display, even without an internet connection
         if (!router.loaded) {
             router.addListeners()
         };
