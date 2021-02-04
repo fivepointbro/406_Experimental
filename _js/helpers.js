@@ -1,25 +1,28 @@
 export default class Helper {
 
-	constructor() {
+	show(out, str) {
+		str ? str = str : str = 'Printed:';
+		console.log(str, out);
 	}
 	
-	show(out) {
-		console.log(out);
-	}
-	
-	grab(selector) {
-		const ele = { value: null };
+	grab(selector, parent) {
+		const ele = {
+			value: null,
+			object: null,
+		};
+
+		parent ? ele.object = parent : ele.object = document;
 		
-		ele.value = document.querySelector(selector);
+		ele.value = ele.object.querySelector(selector);
 		
 		if (ele.value == null) {
-			ele.value = document.querySelector('#' + selector);
+			ele.value = ele.object.querySelector('#' + selector);
 		}
 		if (ele.value == null) {
-			ele.value = document.querySelector('.' + selector);
+			ele.value = ele.object.querySelector('.' + selector);
 		}
 		if (ele.value == null) {
-			ele.value = document.querySelector('[' + selector + ']');
+			ele.value = ele.object.querySelector('[' + selector + ']');
 		}
 		return ele.value;
 	};
@@ -47,22 +50,43 @@ export default class Helper {
 	append(child, parent) {
 		parent.appendChild(child);	
 	};
+
+	empty(parent) {
+		while (parent.firstChild) {
+            parent.removeChild(parent.firstChild);
+		};
+	};
 	
-	JSON(file) {};
-	
-	HTML(file) {
+	JSON(file) {
 		return fetch(file)
-			.then(function (response) {
-                return response.text();
-            }).then(function (html) {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.getElementById('view');
-                return template.content.cloneNode(true);
-            })
-            .catch(function (err) {
-                console.log(err)
-            })
+			.then(response => {
+				return response.json();
+			})
+			.then(json => {
+				return json;
+			})
+			.catch(err => {
+				console.log('Failed to fetch JSON:', err);
+			});
+
+	};
+	
+	HTML(file, templateID) {
+		const self = this;
+		let temp = null;
+		templateID ? temp = templateID : temp = 'template';
+		return fetch(file)
+			.then(response => {
+				return response.text();
+			}).then(html => {
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(html, 'text/html');
+				const template = self.grab(temp, doc);
+				return template.content.cloneNode(true);
+			})
+			.catch(err => {
+				console.log('Failed to fetch HTML:', err)
+			});
 
 	};
 }	

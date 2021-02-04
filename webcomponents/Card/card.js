@@ -1,5 +1,8 @@
 export default class StaffCard extends HTMLElement {
 
+    slug = 'card';  // easy identifier
+    location = './webcomponents/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
+
     member = {};
 
     constructor() {
@@ -8,32 +11,23 @@ export default class StaffCard extends HTMLElement {
 
     setMember(member) {
         const card = this;
-        this.getTemplate()
-            .then(function (response) {
+        $.HTML(this.location + this.slug + '.html')
+            .then(response => {
                 const clone = response;
-                clone.querySelector('[data-image]').src = member.imageURL;
-                clone.querySelector('[data-title]').textContent = member.position;
-                clone.querySelector('[data-subtitle]').textContent = `${member.rank} ${member.name}`;
-                clone.querySelector('[data-bio]').textContent = member.bio;
-                clone.querySelector('button').onclick = function () { card.openModal(member); };
+                $.grab('[data-image]', clone).src = member.imageURL;
+                $.grab('[data-title]', clone).textContent = member.position;
+                $.grab('[data-subtitle]', clone).textContent = `${member.rank} ${member.name}`;
+                $.grab('[data-bio]', clone).textContent = member.bio;
+                $.grab('button', clone).onclick = () => card.openModal(member);
                 card.appendChild(clone);
-            })    };
-
-    connectedCallback() {
-        //const menu = this;        
-        //this.getTemplate()
-        //    .then(function (response) {
-        //        const clone = response;
-        //        console.log(clone.querySelectorAll('div'))
-        //        menu.appendChild(clone);
-        //    })
+            })
     };
 
     getTemplate() {
         return fetch('./webcomponents/Card/card.html') // <-- template filename in here
-            .then(function (response) {
+            .then(response => {
                 return response.text();
-            }).then(function (html) {
+            }).then(html=> {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
                 const template = doc.querySelector('body').firstChild;
@@ -45,12 +39,15 @@ export default class StaffCard extends HTMLElement {
     };
 
     openModal(staffMbr) {
-        const mainModal = document.getElementById('mainModal');
-        const modalTitle = document.getElementById('modalTitle');
-        const modalText = document.getElementById('modalText');
-
+        const mainModal = $.grab('#mainModal');
+        const modalTitle = $.grab('#modalTitle');
+        const modalBody = $.grab('#modalBody');
+        $.empty(modalBody);
         modalTitle.innerHTML = `${staffMbr.rank} ${staffMbr.name}`;
-        modalText.innerHTML = staffMbr.longbio;
+        const paragraphs = staffMbr.longbio
+        paragraphs.forEach(txt => {
+            $.append($.make('p', 'modal-text', txt), modalBody);
+        })
 
         var newModal = new bootstrap.Modal(mainModal);
         newModal.show();

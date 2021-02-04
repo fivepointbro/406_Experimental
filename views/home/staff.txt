@@ -5,8 +5,15 @@
     "rank": "LCol",
     "position": "Commanding Officer",
     "bio": "This is the commanding officer's biography",
-    "longbio": "Some of these people have really long bios, so this is where that would go.",
-    "imageURL": "./views/home/images/CO.jpg"
+    "imageURL": "./views/home/images/CO.jpg",
+    "longbio": 
+    [
+        "The first paragraph of the CO's Biography",
+        "The second paragraph is all about the whatevers",
+        "This is where we'd usually talk about medals I guess?",
+        "It's a bit verbose but there's a reason I'm doing this",
+        "The last paragraph of the CO's bio, which means we made it"
+    ]
   },
   {
     "id": 2,
@@ -14,7 +21,10 @@
     "rank": "CWO",
     "position": "Squadron Chief",
     "bio": "This is the chief's biography",
-    "longbio": "This is definitely one of those people would have a really long biography.",
-    "imageURL": "./views/home/images/CWO.jpg"
+    "imageURL": "./views/home/images/CWO.jpg",
+    "longbio": 
+    [
+        "The chief only has one paragraph in his biography. I don't think this is very realistic but here we are."
+    ]
   }
 ]

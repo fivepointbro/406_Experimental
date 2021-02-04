@@ -1,9 +1,9 @@
 export default class Linkview extends HTMLElement {
 
     // Every view will have these
-    title = 'Could be Links?';
+    title = 'Links and References';
     slug = 'link';  // easy identifier
-    data = ''; // name of data file, in same folder
+    data = 'links.txt'; // name of data file, in same folder
     location = './views/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
     url = './link'; // must match one of the "routes" in the "router.js" file
 
@@ -17,43 +17,72 @@ export default class Linkview extends HTMLElement {
 
     connectedCallback() {
         const view = this;
-        this.getTemplate()
-            .then(function (response) {
+        $.HTML(this.location + this.slug + '.html')
+            .then(response => {
                 const clone = response;
                 view.appendChild(clone);
-                //view.getData(); <-- don't have any yet but this is what we'd usually call
-                view.onDataChanged() // normally wouldn't call this manually since it's part of getData
+                view.getData();
             })
     }
 
-    getTemplate() {
-        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
-        return html
+    makeLinks(link, indx) {
+        const self = this;
+        const target = 'collapse' + indx;
+        const accordion = $.grab('#linksAccordion');
+        $.HTML(this.location + this.slug + '.html', '#item')
+            .then(response => {
+                const clone = response;
+                const button = $.grab('[accordion-button]', clone);
+                button.innerHTML = link.type
+                button.setAttribute('data-bs-target', '#' + target)
+                button.setAttribute('aria-controls', target)
+                const body = $.grab('[accordion-collapse]', clone);
+                body.setAttribute('id', target);
+                if (indx == '0') {
+                    button.setAttribute('aria-expanded', 'true')
+                    button.classList.remove('collapsed')
+                    body.classList.add('show');
+                }
+                const content = $.grab('[accordion-content]', clone);
+                $.empty(content);
+                $.append($.make('p', 'text-center accordion-description', link.description), content);
+                link.links.forEach(item => {
+                    const a = $.make('button', 'btn btn-primary m-2', item.label);
+                    a.setAttribute('href', item.url);
+                    $.append(a, content);
+                })                
+                $.append(clone, accordion);
+            })
     }
 
     getData() {
         let view = this;
-        fetch(this.location + this.data)
-            .then((response) => {
-                return response.json();
-            })
-            .then((json) => {
-                view.stuff = json;
+        $.JSON(this.location + this.data)
+            .then(response => {
+                view.stuff = response;
                 view.onDataChanged();
-            })
-            .catch((err) => {
-                console.log(err)
-            })
-    }
+            });
+    };
 
     onDataChanged() {
         this.displayElements(this.stuff); // <--
     }
 
     displayElements(all) {
-        // not actually doing anything with the template here  
-    }
-
-};
+        const self = this;
+        $.grab('#title').textContent = this.title;
+        const accordion = $.grab('#linksAccordion');
+        // clear out the list before showing the new one
+        $.empty(accordion);
+        // show a default message if there's no staff to show
+        if (all.length === 0) {
+            const p = $.make('p', '', 'No links to show. A Webmaster could add them for you!');
+            accordion.append(p);
+        } else {
+            // insert a version of our template for each link
+            all.forEach((link, indx) => { self.makeLinks(link, indx) })
+            };
+        };
+    };
 
 customElements.define('link-view', Linkview);

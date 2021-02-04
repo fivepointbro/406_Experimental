@@ -1,5 +1,8 @@
 export default class NavBar extends HTMLElement {
 
+    slug = 'navbar';
+    location = './_common/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
+
     constructor() {
         super();
     };
@@ -20,18 +23,8 @@ export default class NavBar extends HTMLElement {
     }
 
     getTemplate() {
-        return fetch('./_common/Navbar/navbar.html') // <-- template filename in here
-            .then(function (response) {
-                return response.text();
-            }).then(function (html) {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.getElementById('component');
-                return template.content.cloneNode(true);
-            })
-            .catch(function (err) {
-                console.log(err)
-            })
+        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
+        return html
     }
 
     attributeChangedCallback(name, oldValue, newValue) {

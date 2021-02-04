@@ -1,10 +1,8 @@
 //************************************************************************************************************** [IMPORTS] We need to make sure every component we use is imported
 //********** [Helper] This contains a collection of 'helper' methods/functions that the app will use
 import Helper from './_js/helpers.js';
-//********** [Components] We do these first because they may be used inside of our views
-import NavBar from './_common/Navbar/navbar.js';
-import Footer from './_common/Footer/footer.js';
-import StaffCard from './webcomponents/Card/card.js';
+//********** [Views] These are our special components that can be reused on multiple pages
+import StaffCard from './webcomponents/card/card.js';
 //********** [Views] These are our "pages"
 import Homeview from './views/home/home.js';
 import Linkview from './views/link/link.js';
@@ -19,7 +17,7 @@ class Router {
     ];
     loaded = false;
 
-    appWindow = document.getElementById('page-content');
+    appWindow = $.grab('#page-content');
 
     constructor() {
         this.navigateTo(this.routes[0].path); // defaults to home when it's first constructed
@@ -54,9 +52,7 @@ class Router {
 
         const router = this;
 
-        while (this.appWindow.firstChild) {
-            this.appWindow.removeChild(this.appWindow.firstChild);
-        }
+        $.empty(this.appWindow);
 
         this.appWindow.append(document.createElement(view));
 
@@ -65,11 +61,9 @@ class Router {
 		if (bar) {
 		const hidebar = new bootstrap.Collapse(bar, { hide: true });
 		}
-        
-
-		// the router has loaded the page, set the navbar active link to white text, and closed the navbar 
+		// the router has now loaded the page, set the navbar active link to white text, and closed the navbar 
 		// if this is the first time we've loaded a page, we will run the function that adds special listeners
-		// this changes link behavior on our site-specific links to not reload the page or query the server
+		// this changes link behavior on our site-specific links to NOT reload the page or query the server
 		// this is the core function of our router, because all "views" (pages) are actually client-side
 		// once the website is loaded, it can continue to display, even without an internet connection
         if (!router.loaded) {
@@ -85,20 +79,19 @@ class Router {
 }
 
 function listeners() {
-
+    // our special listeners, they prevent page reload for any link tags or buttons that have "data-link" as an attribute
     document.addEventListener('click', e => {
         if (e.target.matches('[data-link]')) {
             e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
             app.navigateTo(e.target.href);
         };
     });
 }
 
 //************************************************************************************************************** [APP] This is the app-specific code
-
-//********** [Helper] This is scoped to the browser window so you can even use helper functions in console
 window.$ = new Helper();
-//********** [APP] Start the app.. no really, that's all it takes
+//********** [Header & Footer] Since these are hard-coded on the HTML page, they need to be imported immediately after the Helper
+import('./_common/navbar/navbar.js');
+import ('./_common/footer/footer.js');
+//********** [App] Start the app.. no really, that's it
 const app = new Router();

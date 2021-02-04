@@ -1,12 +1,15 @@
 export default class Footer extends HTMLElement {
 
+    slug = 'footer';
+    location = './_common/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
+
     constructor() {
         super();
     };
 
     static get observedAttributes() {
-        return [""];
-    }
+        return [''];
+    };
 
     connectedCallback() {
         const menu = this;
@@ -15,22 +18,12 @@ export default class Footer extends HTMLElement {
                 const clone = response;
                 menu.appendChild(clone);
             })
-    }
+    };
 
     getTemplate() {
-        return fetch('./_common/Footer/footer.html') // <-- template filename in here
-            .then(function (response) {
-                return response.text();
-            }).then(function (html) {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.getElementById('component');
-                return template.content.cloneNode(true);
-            })
-            .catch(function (err) {
-                console.log(err)
-            })
-    }
+        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
+        return html
+    };
 
 };
 

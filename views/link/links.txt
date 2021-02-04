@@ -1,0 +1,99 @@
+[
+  {
+    "type": "General",
+    "description" : "These are all the general links. This is where general links will go.",
+    "links":
+    [
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is one of the links"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is another link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the third link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the last one"
+        }
+    
+    ]
+
+  },
+  {
+    "type": "External",
+    "description" : "These are the external links. They bring you to other places.",
+    "links": 
+    [
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is one of the links"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is another link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the third link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the last one"
+        }
+    
+    ]
+  },
+  {
+    "type": "Files",
+    "description" : "These are files. You can download them.",
+    "links": 
+    [
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is one of the links"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is another link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the third link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the last one"
+        }
+    
+    ]
+  },
+  {
+    "type": "Airworthiness",
+    "description" : "If you don't know what this is, then go home.",
+    "links":
+    [
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is one of the links"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is another link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the third link"
+        },
+        {
+            "url" : "www.whatever.com",
+            "label" : "This is the last one"
+        }
+    
+    ]
+  }
+]

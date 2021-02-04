@@ -17,59 +17,46 @@ export default class Homeview extends HTMLElement {
 
     connectedCallback() {
         const view = this;
-        this.getTemplate()
-            .then(function (response) {
+        //use helper function to get template
+        $.HTML(this.location + this.slug + '.html')
+            .then(response => {
                 const clone = response;
                 view.appendChild(clone);
                 view.getData();
             })
-    }
-
-    getTemplate() {
-        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
-        return html
-    }
+    };
 
     getData() {
         let view = this;
-        fetch(this.location + this.data)
-            .then((response) => {
-                return response.json();
-            })
-            .then((json) => {
-                view.stuff = json; 
+        $.JSON(this.location + this.data)
+            .then(response => {
+                view.stuff = response;
                 view.onDataChanged();
-            })
-            .catch((err) => {
-                console.log(err)
-            })
-    }
+            });
+    };
 
     onDataChanged() {
         this.displayElements(this.stuff); // <--
-    }
+    };
 
     displayElements(all) {
-        document.getElementById('title').textContent = this.title
-        const staffContainer = document.getElementById('staffContainer');
+        $.grab('#title').textContent = this.title;
+        const staffContainer = $.grab('#staffContainer');
         // clear out the list before showing the new one
-        while (staffContainer.firstChild) {
-            staffContainer.removeChild(staffContainer.firstChild);
-        }
+        $.empty(staffContainer);
         // show a default message if there's no staff to show
         if (all.length === 0) {
-            const p = document.createElement('p');
-            p.textContent = 'No staff to show. A Webmaster could add them for you!';
+            const p = $.make('p', '', 'No staff to show. A Webmaster could add them for you!');
             staffContainer.append(p);
         } else {
             // create a "card" for each staff member
             all.forEach(staffMbr => {
-                const mbrCard = document.createElement('staff-card');
+                const mbrCard = $.make('staff-card');
                 staffContainer.append(mbrCard);
                 mbrCard.setMember(staffMbr);
-            })
-        }
-    }
+            });
+        };
+    };
 
 };
 
