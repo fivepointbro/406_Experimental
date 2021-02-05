@@ -45,10 +45,13 @@ export default class StaffCard extends HTMLElement {
         $.empty(modalBody);
         modalTitle.innerHTML = `${staffMbr.rank} ${staffMbr.name}`;
         const paragraphs = staffMbr.longbio
-        paragraphs.forEach(txt => {
-            $.append($.make('p', 'modal-text', txt), modalBody);
-        })
-
+        if (typeof paragraphs == 'object') {
+            paragraphs.forEach(txt => {
+                $.append($.make('p', 'modal-text', txt), modalBody);
+            })
+        } else {
+            $.append($.make('p', 'modal-text', paragraphs), modalBody);
+        }
         var newModal = new bootstrap.Modal(mainModal);
         newModal.show();
     };

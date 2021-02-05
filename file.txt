@@ -1,10 +1,11 @@
 position: Commanding Officer
 rank: LCol
 name: Darras
-image: ./images/CO.jpg
-shortbio: The commanding officer's bio goes here
+imageURL: ./images/CO.jpg
+bio: The commanding officer's bio goes here
 longbio: This would be the longer biography. It would have at least two sentences.
 It would probably also have at least two paragraphs.
+
 Maybe even three!
 
 
@@ -12,6 +13,18 @@ Maybe even three!
 position: Squadron Chief
 rank: CWO
 name: Paquette
-image: ./images/CWO.jpg
-shortbio: The chief's cool bio goes here
+imageURL: ./images/CWO.jpg
+bio: The chief's cool bio goes here
 longbio: Just for testing, the chief only has one paragraph
+
+
+
+
+position: Zucc
+rank: The
+name: Zucc
+imageURL: ./images/zucc.jpg
+bio: This is the zucc
+longbio: This is the zucc.
+He controls our lives.
+This is a demo.

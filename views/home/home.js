@@ -28,11 +28,11 @@ export default class Homeview extends HTMLElement {
 
     getData() {
         let view = this;
-        $.JSON(this.location + this.data)
-            .then(response => {
-                view.stuff = response;
-                view.onDataChanged();
-            });
+        let data = $.textToObject($.data)
+        console.log(data)
+        view.stuff = data
+        console.log(view.stuff)
+        view.onDataChanged();
     };
 
     onDataChanged() {
