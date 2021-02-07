@@ -22,7 +22,7 @@ Only one statement per line, and you can't use a double colon ":" anywhere excep
 I'm sorry but you can't. You shouldn't need to anyway, since list items will be pre-formatted
 You also can't use double curly braces! Not sure why you would anyway, but don't
 You CAN use HTML in your statements if you want but don't go overboard, that's not the intent
-Let the templates do their job but you can <strong>make some text bold</strong> or <ul>underlined</ul>
+Let the templates do their job but you can <strong>make some text bold</strong> or <u>underlined</u>
 You can use a single line break..
 
 Or two line breaks as above, so there's a gap between lines (easier to read)
