@@ -4,94 +4,102 @@ export default class Helper {
     data = [];
 
     constructor() {
+        // doesn't need to be constructed but we can put things in here for testing purposes
         this.TEXT(this.file, null).then(text => this.data = text);
     };
 
-    textToObject(data) {
-        // this function is insane but it turns any text file with almost any formatting
-        // into a javascript object we can use to iterate and display it
-        // honestly, so dope
+    textToObject(data, view, verbose) {
+        // this function is insane but it turns our text files with very minimal formatting
+        // into javascript objects we can use to iterate and display our data on our views
+        const fil = el => el != null && el != '' && el.length > 2
+        const reg1 = /{{.+?}}/
+        const reg2 = /\n\s{3,}\n/
+        const reg3 = /\s{3,}?/
 
-        let obj = data.split(/(\n\s){3,}\n/).filter(el => el != null && el != '' && el.length > 2)
-        obj = obj.map((person, ind) => {
-            return {
-                contents: person.split('\n').filter(el => el != null && el != '' && el.length > 2)
-            }
-        })
-        obj = obj.map(person => {
-            return {
-                contents: person.contents.map(str => str.split(': '))
-            }
-        })
-        let ticker = 0;
-        obj.forEach(person => person.contents.forEach((i, ind, me) => {
-            if (i.length > 1) { ticker = ind }
-            else { me[ticker].push(me[ind][0]) }
-        }))
-        obj = obj.map(person => person.contents.filter(i => i.length > 1))
-        obj = obj.map((person, ind, me) => {
-            const pers = { id: ind }
-            person.forEach(i => i.length == 2 ? pers[i[0]] = i.slice(1).toString() : pers[i[0]] = i.slice(1))
-            return pers
-        })
-
-        return obj
-
-    };
-
-    SPLIT(splitter, indx) {
-        self = this;
-
-        indx ? self.data = self.data[indx].split(splitter) : self.data = self.data.split(splitter);
-        self.data = self.data.filter(el => el != null && el != '');
-
-        return self.data;
+        let obj = data.split(reg1).slice(1).join('\n')
+            .split(reg2).filter(fil)
+            .map(item => { return { contents: item.split('\n').filter(fil) } })
+            .map(item => { return { contents: item.contents.map(str => str.split(': ')) } })
+        if (verbose) { $.show(obj, 'After the core:') }
+        // that's the core of it all, now we need to deal with unlabeled items
+        let mark = 0;
+        obj.forEach(item => item.contents.forEach((i, ind, me) => {
+            if (i.length > 1) { mark = ind } else { me[mark].push(me[ind][0]) }
+        }));
+        if (verbose) { $.show(obj, 'After cleaning singles:') }
+        //// check for nested lists
+        obj.forEach(item => {
+            mark = 0
+            const tempArr = []
+            let tempObj = {}
+            item.contents.forEach((i, ind, me) => {
+                let a, b, lastchar
+                if (!i[0].match(reg3)) { mark = ind };
+                if (i[0].match(reg3)) {
+                    a = i[0].split(reg3)[1].trim()
+                    b = i[1].trim()
+                    b[b.length - 1] == ',' ? lastchar = true : lastchar = false;
+                    lastchar ? b = b.slice(0, b.length - 1) : b = b;
+                    Object.defineProperty(tempObj, a, { value: b, writable: true, configurable: true })
+                };
+                if (lastchar) {
+                    tempArr.push(tempObj)
+                    tempObj = {}
+                };
+                if (ind == item.contents.length - 1 && tempArr.length > 0) {
+                    me[mark][1] = tempArr
+                };
+            })
+        });
+        if (verbose) { $.show(obj, 'After figuring out nested items:') }
+        // now to clean up the mess
+        obj = obj.map(item => item.contents.filter(i => i.length > 1 && !i[0].match(reg3)))
+            .map((item, ind) => {
+                const itm = { id: ind }
+                item.forEach(i => i.length == 2 && typeof i[1] == 'string'
+                    ? itm[i[0].trim()] = i.slice(1).toString().trim()
+                    : itm[i[0].trim()] = i.slice(1))
+                return itm
+            })
+        if (verbose) { $.show(obj, 'After final cleanup:') }
+        // what should we do with this data?
+        // if it was called by a specific view, set their data values
+        // otherwise just return it to the caller
+        if (view) {
+            view.pageContent = obj[0]
+            view.repeatItems = obj.slice(1)
+            return 1
+        } else return obj
     };
 
     show(out, str) {
         str ? str = str : str = 'Printed:';
         console.log(str, out);
-    }
+    };
 
     grab(selector, parent) {
         const ele = {
-            value: null,
+            element: null,
             object: null,
         };
-
         parent ? ele.object = parent : ele.object = document;
-
-        ele.value = ele.object.querySelector(selector);
-
-        if (ele.value == null) {
-            ele.value = ele.object.querySelector('#' + selector);
-        }
-        if (ele.value == null) {
-            ele.value = ele.object.querySelector('.' + selector);
-        }
-        if (ele.value == null) {
-            ele.value = ele.object.querySelector('[' + selector + ']');
-        }
-        return ele.value;
-    };
-
-    grabAll(selector) {
-        const nodeList = [];
-
-        nodeList.push(document.querySelectorAll(selector));
-        nodeList.push(document.querySelectorAll('#' + selector));
-        nodeList.push(document.querySelectorAll('.' + selector));
-        nodeList.push(document.querySelectorAll('[' + selector + ']'));
-
-        return nodeList.find(i => i.length > 0);
+        ele.element = ele.object.querySelector(selector);
+        if (ele.element == null) try {
+            ele.element = ele.object.querySelector('#' + selector);
+        } catch (err) { console.log(err) }
+        if (ele.element == null) try {
+            ele.element = ele.object.querySelector('.' + selector);
+        } catch (err) { console.log(err) }
+        if (ele.element == null) try {
+            ele.element = ele.object.querySelector('[' + selector + ']');
+        } catch (err) { console.log(err) }
+        return ele.element;
     };
 
     make(type, classes, content) {
         const elem = document.createElement(type);
-
         classes ? elem.className = classes : elem.className = null;
         content ? elem.innerHTML = content : elem.innerHTML = null;
-
         return elem;
     };
 
@@ -105,16 +113,27 @@ export default class Helper {
         };
     };
 
-    JSON(file) {
+    DOWNL(file, filename) {
         return fetch(file)
             .then(response => {
-                return response.json();
+                return response.blob();
             })
-            .then(json => {
-                return json;
+            .then(file => {
+                const url = URL.createObjectURL(file);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename || 'download';
+                const clickHandler = () => {
+                    setTimeout(() => {
+                        URL.revokeObjectURL(url);
+                        this.removeEventListener('click', clickHandler);
+                    }, 150);
+                };
+                a.addEventListener('click', clickHandler, false);
+                a.click();
             })
             .catch(err => {
-                console.log('Failed to fetch JSON:', err);
+                console.log('Failed to fetch file:', err);
             });
 
     };
@@ -138,13 +157,10 @@ export default class Helper {
 
     };
 
-    TEXT(file, pattern) {
+    TEXT(file) {
         return fetch(file)
             .then(response => {
                 return response.text();
-            })
-            .then(text => {
-                return text;
             })
             .catch(err => {
                 console.log('Failed to fetch TEXT:', err);

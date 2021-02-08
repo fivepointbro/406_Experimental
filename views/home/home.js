@@ -1,55 +1,56 @@
 export default class Homeview extends HTMLElement {
 
     // Every view will have these
-    title = 'Showing Off Command Staff';
-    slug = 'home';  // easy identifier
+    slug = 'home';  // page identifier
     data = 'staff.txt'; // name of data file, in same folder
-    location = './views/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
-    url = './'; // must match one of the "routes" in the "router.js" file
+    location = './views/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures completely
 
-    // the nature of the data you're working with, give it an easy name to work with or just leave it
-    stuff = [];
-    // make sure to change the call inside the constructor and a few other spots!
+    // the blocks of the data you're working with, brilliantly derived from a .txt file
+    pageContent = [];
+    repeatItems = [];
 
     constructor() {
         super();
     };
 
     connectedCallback() {
-        const view = this;
-        //use helper function to get template
+        const self = this;
+        // get the template, then the data, then display it all
         $.HTML(this.location + this.slug + '.html')
             .then(response => {
                 const clone = response;
-                view.appendChild(clone);
-                view.getData();
+                self.appendChild(clone);
+            }).then(reply => {
+                $.TEXT(this.location + this.data)
+                    .then(response => {
+                        $.textToObject(response, self);
+                    }).then(response => {
+                        self.displayContent(self.pageContent);
+                        self.displayRepeats(self.repeatItems);
+                    })
             })
     };
 
-    getData() {
-        let view = this;
-        let data = $.textToObject($.data)
-        console.log(data)
-        view.stuff = data
-        console.log(view.stuff)
-        view.onDataChanged();
+    displayContent(all) {
+        $.grab('#title').textContent = all.title;
+        const contentDiv = $.grab('#content')
+        const paragraphs = all.content
+        if (typeof paragraphs == 'object') {
+            paragraphs.forEach(txt => {
+                $.append($.make('p', '', txt), contentDiv);
+            })
+        } else {
+            $.append($.make('p', '', paragraphs), contentDiv);
+        }
     };
 
-    onDataChanged() {
-        this.displayElements(this.stuff); // <--
-    };
-
-    displayElements(all) {
-        $.grab('#title').textContent = this.title;
+    displayRepeats(all) {
         const staffContainer = $.grab('#staffContainer');
-        // clear out the list before showing the new one
         $.empty(staffContainer);
-        // show a default message if there's no staff to show
         if (all.length === 0) {
             const p = $.make('p', '', 'No staff to show. A Webmaster could add them for you!');
             staffContainer.append(p);
         } else {
-            // create a "card" for each staff member
             all.forEach(staffMbr => {
                 const mbrCard = $.make('staff-card');
                 staffContainer.append(mbrCard);

@@ -23,21 +23,6 @@ export default class StaffCard extends HTMLElement {
             })
     };
 
-    getTemplate() {
-        return fetch('./webcomponents/Card/card.html') // <-- template filename in here
-            .then(response => {
-                return response.text();
-            }).then(html=> {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const template = doc.querySelector('body').firstChild;
-                return template.cloneNode(true);
-            })
-            .catch(function (err) {
-                console.log(err)
-            })
-    };
-
     openModal(staffMbr) {
         const mainModal = $.grab('#mainModal');
         const modalTitle = $.grab('#modalTitle');

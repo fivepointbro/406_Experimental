@@ -1,31 +1,85 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
+
+
+
+:root[color-mode="light"] {
+	--primary-color: #20558a;
+	--secondary-color: #0b5ed7;
+	--background: #fff;
+	--view-bg: #fff;
+	--modal-bg: rgba(255,255,255,0.92);
+	--view-opacity: 1;
+	--white: #fff;
+	--light-color: #f8f9fa;
+	--dark-color: #212529;
+	--light-font: #f8f9fa;
+	--dark-font: #212529;
+	--bg-image: url(../_common/header-bg.jpg);
+	--filter: none;
+	--shadow: 0px 10px 20px #555;
+}
+:root[color-mode="dark"] {
+	--primary-color: #78a3cf;
+	--secondary-color: #7494b5;
+	--background: #121212;
+	--view-bg: rgba(255,255,255,0.1);
+	--modal-bg: rgba(40,40,40,0.92);
+	--view-opacity: .9;
+	--white: #fff;
+	--light-color: #f8f9fa;
+	--dark-color: #212529;
+	--light-font: #f8f9fa;
+	--dark-font: #f8f9fa;
+	--bg-image: url(../_common/header-bg-dark.jpg);
+	--filter: brightness(0.7) constrast(1.1);
+	--shadow: 0px 10px 20px #111
+}
+img, svg {
+	filter: var(--filter);
+}
 
 html {
 	height:100%;
 	width:100%;
 	margin:0;
 	padding:0;
+	fill: currentColor;
 }
 
 body {
-	background-image: url(/_12wWet/theme-gcwu-fegc/assets/header-leaf.jpg),url(/_12wWet/theme-gcwu-fegc/assets/header-bg.jpg);
-	background-position: center 3.3em;
-	background-repeat: no-repeat,repeat-x;
+	background-image: var(--bg-image);
+	background-color: var(--background);
+	background-position: center 3.4em;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	transition: .1s all linear;
 }
 
 .main-content {
-	background-color: white;
+	background-color: var(--view-bg);
 	position: relative;
+	opacity: var(--view-opacity);
 	top: 200px;
+	border-radius: 0.6rem;
+	perspective: 900px;
 }
 
 .staff-card {
-	transition: all .2s;
+	border-radius: 0.6rem;
+	transition: .5s all ease;
+	transform: rotateX(60deg) scale(0.8);
+	perspective: 900px;
+	box-shadow: var(--shadow);
+	animation: entry 1s linear 1;
+	z-index: 20;
 }
 
-.staff-card:hover {
-	background-color: #f5f5f5;
-}
+	.staff-card:hover {
+		opacity: 1;
+		transform: rotate(0deg) scale(1) translateY(10px);
+		transition: .5s all ease;
+		z-index: 400;
+	}

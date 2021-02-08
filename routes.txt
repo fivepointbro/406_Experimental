@@ -1,0 +1,14 @@
+{{page content below}}
+{{routes below}}
+
+name: Home
+slug: home
+path: ./
+view: home-view
+
+
+
+name: Links
+slug: link
+path: ./link
+view: link-view

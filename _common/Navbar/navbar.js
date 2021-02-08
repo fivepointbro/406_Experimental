@@ -2,9 +2,15 @@ export default class NavBar extends HTMLElement {
 
     slug = 'navbar';
     location = './_common/' + this.slug + '/'; // you shouldn't need to touch this unless you change folder structures
+    routes = [];
+    loaded = false
 
     constructor() {
         super();
+        const self = this;
+        $.TEXT('./routes.txt').then(text => {
+            self.routes = $.textToObject(text)
+        });
     };
 
     static get observedAttributes() {
@@ -12,30 +18,40 @@ export default class NavBar extends HTMLElement {
     }
 
     connectedCallback() {
-        const menu = this;
         const page = this.getAttribute('page');
-        this.getTemplate()
-            .then(function (response) {
-                const clone = response;
-                clone.getElementById('link-' + page).classList.add('active');
-                menu.appendChild(clone);
-            })
-    }
-
-    getTemplate() {
-        const html = $.HTML(this.location + this.slug + '.html') // <-- folder name, template name, and this ".js" file name must all match the "slug" name
-        return html
+        const self = this;
+        if (!self.loaded) {
+            // get the template, then the data, then display it all
+            $.HTML(this.location + this.slug + '.html')
+                .then(response => {
+                    const clone = response;
+                    self.appendChild(clone);
+                }).then(r => {
+                    const links = $.grab('#nav-links', self)
+                    self.routes.forEach(route => {
+                        const li = $.make('li', 'nav-item')
+                        const a = $.make('a', 'nav-link', route.name.trim())
+                        a.setAttribute('id', `link-${route.slug.trim()}`)
+                        a.setAttribute('href', `${route.path.trim()}`)
+                        a.setAttribute('data-link', '')
+                        li.appendChild(a)
+                        links.appendChild(li)
+                        $.grab(`#link-${page}`, links).classList.add('active')
+                        self.loaded = true
+                    })
+                })
+        }
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
     	if (this.hasChildNodes()) {
-    	    	document.getElementById('link-' + oldValue).classList.remove('active');
-    	    	document.getElementById('link-' + newValue).classList.add('active');	
+    	    	$.grab('#link-' + oldValue).classList.remove('active');
+    	    	$.grab('#link-' + newValue).classList.add('active');	
     	}else{
     			// no big deal, DOM just isn't fully loaded yet
-    	}
-    	
+    	}    	
     }
+
 };
 
 customElements.define('nav-bar', NavBar);
