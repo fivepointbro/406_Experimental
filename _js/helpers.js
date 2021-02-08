@@ -135,7 +135,6 @@ export default class Helper {
             .catch(err => {
                 console.log('Failed to fetch file:', err);
             });
-
     };
 
     HTML(file, templateID) {
@@ -154,7 +153,6 @@ export default class Helper {
             .catch(err => {
                 console.log('Failed to fetch HTML:', err)
             });
-
     };
 
     TEXT(file) {
