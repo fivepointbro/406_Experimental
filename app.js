@@ -6,6 +6,7 @@ import StaffCard from './webcomponents/card/card.js';
 //********** [Views] These are our "pages"
 import Homeview from './views/home/home.js';
 import Linkview from './views/link/link.js';
+import ASOview from './views/sections/aso/aso.js'
 
 
 if (localStorage.viewMode) { document.querySelector('html').setAttribute('color-mode', localStorage.viewMode) };

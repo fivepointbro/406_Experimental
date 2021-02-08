@@ -12,3 +12,10 @@ name: Links
 slug: link
 path: ./link
 view: link-view
+
+
+
+name: ASO
+slug: aso
+path: ./aso
+view: aso-view

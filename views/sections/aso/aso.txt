@@ -1,0 +1,77 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+title: ASO Section
+content: This page is for the ASO section, you'll be able to learn stuff about ASO here.
+For now it's only going to show the same links as the links page. I haven't decided what to put here yet.
+
+{{repeated items below}}
+
+type: General
+description: These are all the general links. This is where general links will go.
+links: =>
+    url: www.whatever1.com
+    label: This is one of the links,
+
+    url: www.whatever2.com
+    label: This is another link,
+
+    url: www.whatever3.com
+    label: This is the third link,
+
+    url: www.whatever4.com
+    label: This is the last one,
+
+
+
+
+type: External
+description: These are the external links. They bring you to other places.
+links: =>
+    url: www.whatever.com
+    label: This is one of the links,
+
+    url: www.whatever.com
+    label: This is another link,
+
+    url: www.whatever.com
+    label: This is the third link,
+
+    url: www.whatever.com
+    label: This is the last one,
+
+
+
+type: Files
+description: These are files. You can download them.
+links: =>
+    url: www.whatever.com
+    label: This is one of the links,
+    url: www.whatever.com
+    label: This is another link,
+    url: www.whatever.com
+    label: This is the third link,
+    url: www.whatever.com
+    label: This is the last one,
+
+
+
+
+type: Airworthiness
+description: If you don't know what this is, then go home.
+links: =>
+    url: www.whatever.com
+    label: This is one of the links,
+
+    url: www.whatever.com
+    label: This is another link,
+
+    url: www.whatever.com
+    label: This is the third link,
+
+    url: www.whatever.com
+    label: This is the last one,
