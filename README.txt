@@ -19,7 +19,7 @@ You can also create sub-lists, like a list of "cars" that each "person" owns
 Rules: Please read!
 
 Only one statement per line, and you can't use a colon ":" anywhere except your label
-I'm sorry but you can't. You shouldn't need to anyway, since items will be pre-formatted
+I'm sorry but you can't. You shouldn't need to anyway, since list items will be pre-formatted
 You also can't use double curly braces! Not sure why you would anyway, but don't do it
 You CAN use HTML in your statements if you want but don't go overboard, that's not the intent
 Let the templates do their job but you can <strong>make some text bold</strong> or <u>underlined</u>
