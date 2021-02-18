@@ -4,18 +4,64 @@
 name: Home
 slug: home
 path: ./
-view: home-view
+type: main
 
+
+name: Command Staff
+slug: staff
+path: ./staff
+type: main
 
 
 name: Links
 slug: link
 path: ./link
-view: link-view
+type: main
 
+
+name: Sentinel
+slug: sentinel
+path: ./sentinel
+type: main
+
+
+name: SAMEO
+slug: sameo
+path: ./sameo
+type: section
+
+
+name: SAMS
+slug: sams
+path: ./sams
+type: section
 
 
 name: ASO
 slug: aso
 path: ./aso
-view: aso-view
+type: section
+
+
+name: QSO
+slug: qso
+path: ./qso
+type: section
+
+
+name: Admin
+slug: admin
+path: ./admin
+type: section
+
+
+name: General Safety
+slug: generalsafety
+path: ./generalsafety
+type: safety
+
+
+name: Flight Safety
+slug: flightsafety
+path: ./flightsafety
+type: safety

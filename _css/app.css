@@ -1,85 +1,234 @@
 ﻿@charset "UTF-8";
 
 
-
+/* color variables for light and dark mode */
 :root[color-mode="light"] {
-	--primary-color: #20558a;
-	--secondary-color: #0b5ed7;
-	--background: #fff;
-	--view-bg: #fff;
-	--modal-bg: rgba(255,255,255,0.92);
-	--view-opacity: 1;
-	--white: #fff;
-	--light-color: #f8f9fa;
-	--dark-color: #212529;
-	--light-font: #f8f9fa;
-	--dark-font: #212529;
-	--bg-image: url(../_common/header-bg.jpg);
-	--filter: none;
-	--shadow: 0px 10px 20px #555;
+    --primary-color: #20558a;
+    --secondary-color: #0b5ed7;
+    --background: #fff;
+    --view-bg: #fff;
+    --modal-bg: rgba(255,255,255,0.92);
+    --view-opacity: 1;
+    --white: #fff;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --light-font: #f8f9fa;
+    --dark-font: #212529;
+    --bg-image: url(../_common/header-bg.jpg);
+    --filter: none;
+    --shadow: 0px 10px 20px #555;
+    --title: 10px;
 }
+
 :root[color-mode="dark"] {
-	--primary-color: #78a3cf;
-	--secondary-color: #7494b5;
-	--background: #121212;
-	--view-bg: rgba(255,255,255,0.1);
-	--modal-bg: rgba(40,40,40,0.92);
-	--view-opacity: .9;
-	--white: #fff;
-	--light-color: #f8f9fa;
-	--dark-color: #212529;
-	--light-font: #f8f9fa;
-	--dark-font: #f8f9fa;
-	--bg-image: url(../_common/header-bg-dark.jpg);
-	--filter: brightness(0.7) constrast(1.1);
-	--shadow: 0px 10px 20px #111
-}
-img, svg {
-	filter: var(--filter);
+    --primary-color: #78a3cf;
+    --secondary-color: #7494b5;
+    --background: #121212;
+    --view-bg: rgba(255,255,255,0.1);
+    --modal-bg: rgba(40,40,40,0.92);
+    --view-opacity: .9;
+    --white: #fff;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --light-font: #f8f9fa;
+    --dark-font: #f8f9fa;
+    --bg-image: url(../_common/header-bg-dark.jpg);
+    --filter: brightness(0.7) constrast(1.1);
+    --shadow: 0px 10px 20px #111;
+    --title: -55px;
 }
 
 html {
-	height:100%;
-	width:100%;
-	margin:0;
-	padding:0;
-	fill: currentColor;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+/* custom scrollbar setup */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--secondary-color);
+    }
+
+/* dims images in dark mode only */
+img, svg {
+    filter: var(--filter);
+}
+
+svg {
+    fill: currentColor;
+}
+
 
 body {
-	background-image: var(--bg-image);
-	background-color: var(--background);
-	background-position: center 3.4em;
-	background-repeat: repeat-x;
-	background-attachment: fixed;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	transition: .1s all linear;
+    overflow-y: scroll;
+    background-image: var(--bg-image);
+    background-color: var(--background);
+    background-position: center 3.4em;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: .1s all linear;
 }
 
+h1 {
+    font-size: 70px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: var(--title);
+    margin-bottom: 40px;
+    text-shadow: var(--outline)
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 25px;
+}
+
+/* styling our navbar links */
+#navbarCollapse {
+    border-bottom: 3px solid var(--primary-color);
+}
+
+    #navbarCollapse * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+    }
+
+    #navbarCollapse h5 {
+        color: #f8f9fa;
+    }
+
+    #navbarCollapse li {
+        display: inline-block;
+        text-align: center;
+        list-style: outside none none;
+        margin: .3em .8em;
+        padding: 0;
+    }
+
+    #navbarCollapse a {
+        padding: .3em .8em;
+        position: relative;
+        text-decoration: none;
+    }
+
+        #navbarCollapse a::before,
+        #navbarCollapse a::after {
+            content: '';
+            height: 20px;
+            width: 14px;
+            position: absolute;
+            transition: all .35s ease;
+            opacity: 0;
+        }
+
+        #navbarCollapse a::before {
+            content: '';
+            right: 0;
+            top: 0;
+            border-top: 3px solid var(--secondary-color);
+            border-right: 3px solid var(--secondary-color);
+            transform: translate(-100%, 50%);
+        }
+
+        #navbarCollapse a::after {
+            content: '';
+            left: 0;
+            bottom: 0;
+            border-bottom: 3px solid var(--secondary-color);
+            border-left: 3px solid var(--secondary-color);
+            transform: translate(100%, -50%)
+        }
+
+        #navbarCollapse a:hover:before,
+        #navbarCollapse a:hover:after {
+            transform: translate(0,0);
+            opacity: 1;
+        }
+
+        #navbarCollapse a:hover {
+            color: var(--secondary-color);
+        }
+
+.nav-link {
+    cursor: pointer;
+}
+
+/* styling the rest of the app */
 .main-content {
-	background-color: var(--view-bg);
-	position: relative;
-	opacity: var(--view-opacity);
-	top: 200px;
-	border-radius: 0.6rem;
-	perspective: 900px;
+    background-color: var(--view-bg);
+    width: 75%;
+    margin: 200px auto;
+    opacity: var(--view-opacity);
+    border-radius: 0.6rem;
+    perspective: 900px;
+}
+
+/* styling the individual components */
+.accordion-button {
+    transition: .2s all ease;
+}
+
+    .accordion-button:hover {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-left: 8px solid var(--secondary-color);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+.accordion-description {
+    flex-basis: 100%;
 }
 
 .staff-card {
-	border-radius: 0.6rem;
-	transition: .5s all ease;
-	transform: rotateX(60deg) scale(0.8);
-	perspective: 900px;
-	box-shadow: var(--shadow);
-	animation: entry 1s linear 1;
-	z-index: 20;
+    border-radius: 0.6rem;
+    transition: .2s all ease;
+    transform: scale(0.95);
+    perspective: 900px;
+    box-shadow: var(--shadow);
+    z-index: 20;
 }
 
-	.staff-card:hover {
-		opacity: 1;
-		transform: rotate(0deg) scale(1) translateY(10px);
-		transition: .5s all ease;
-		z-index: 400;
-	}
+    .staff-card:hover {
+        background-color: rgba(255,255,255,0.1);
+        transform: scale(1) translateY(-20px);
+        transition: .2s all ease;
+        z-index: 400;
+    }
+
+.contact-card {
+    border-radius: 0.6rem;
+    transition: .2s all ease;
+    transform: scale(0.97);
+    perspective: 900px;
+    box-shadow: var(--shadow);
+    z-index: 20;
+}
+
+    .contact-card:hover {
+        background-color: rgba(255,255,255,0.1);
+        transform: scale(1) translateY(-15px);
+        transition: .2s all ease;
+        z-index: 400;
+    }

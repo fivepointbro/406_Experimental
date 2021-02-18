@@ -13,8 +13,8 @@ export default class Helper {
         // into javascript objects we can use to iterate and display our data on our views
         const fil = el => el != null && el != '' && el.length > 2
         const reg1 = /{{.+?}}/
-        const reg2 = /\n\s{3,}\n/
-        const reg3 = /\s{3,}?/
+        const reg2 = /$[\n\s]{5,}^/m
+        const reg3 = /^\s{3,}|\t/
 
         let obj = data.split(reg1).slice(1).join('\n')
             .split(reg2).filter(fil)
@@ -33,21 +33,21 @@ export default class Helper {
             const tempArr = []
             let tempObj = {}
             item.contents.forEach((i, ind, me) => {
-                let a, b, lastchar
-                if (!i[0].match(reg3)) { mark = ind };
+                let a, b, lastItem
+                if (!i[0].match(reg3)) { mark = ind }
                 if (i[0].match(reg3)) {
                     a = i[0].split(reg3)[1].trim()
                     b = i[1].trim()
-                    b[b.length - 1] == ',' ? lastchar = true : lastchar = false;
-                    lastchar ? b = b.slice(0, b.length - 1) : b = b;
+                    a in tempObj ? lastItem = true : lastItem = false;
+                    if (lastItem) {
+                        tempArr.push(tempObj)
+                        tempObj = {}
+                    };
                     Object.defineProperty(tempObj, a, { value: b, writable: true, configurable: true })
-                };
-                if (lastchar) {
-                    tempArr.push(tempObj)
-                    tempObj = {}
-                };
-                if (ind == item.contents.length - 1 && tempArr.length > 0) {
-                    me[mark][1] = tempArr
+                    if (ind == item.contents.length - 1) {
+                        tempArr.push(tempObj)
+                        me[mark][1] = tempArr
+                    };
                 };
             })
         });
@@ -66,8 +66,8 @@ export default class Helper {
         // if it was called by a specific view, set their data values
         // otherwise just return it to the caller
         if (view) {
-            view.pageContent = obj[0]
-            view.repeatItems = obj.slice(1)
+            view.pageContent = obj.filter(item => !('type' in item))
+            view.repeatItems = obj.filter(item => ('type' in item))
             return 1
         } else return obj
     };
@@ -102,6 +102,115 @@ export default class Helper {
         content ? elem.innerHTML = content : elem.innerHTML = null;
         return elem;
     };
+
+    contentItem(object, index, sender) {
+        delete object['id']
+        const self = this
+        const type = Object.keys(object)[0]
+        const content = object[type]
+        let parent = null
+        let child = null
+        switch (type) {
+            case 'title':
+                parent = self.grab('#title', sender)
+                parent.innerHTML = content
+                break
+            case 'subtitle':
+                parent = self.grab('#content', sender)
+                child = self.make('h4', '', content)
+                parent.append(child)
+                break
+            case 'text':
+                parent = self.grab('#content', sender)
+                if (typeof content == 'object') {
+                    content.forEach(txt => {
+                        if (txt[0] == '<') { $.append($.make('div', '', txt), parent); }
+                        else { $.append($.make('p', '', txt), parent); }
+                    })
+                } else {
+                    $.append($.make('p', '', content), parent);
+                }
+                break
+            case 'list':
+                parent = self.grab('#content', sender)
+                child = self.make('ul')
+                content[0].forEach(item => {
+                    child.append(self.make('li', '', item['item']))
+                })
+                parent.append(child)
+                break
+            case 'links':
+                parent = self.grab('#content', sender)
+                content[0].forEach(item => {
+                    child = self.make('a', '', item['label'])
+                    child.setAttribute('href', item['url'])
+                    parent.append(child)
+                    parent.append(document.createElement("BR"))
+                })
+                break
+            case 'image':
+                parent = self.grab('#content', sender)
+                child = self.make('img')
+                child.setAttribute('src', content[0][0]['url'])
+                if (content[0][0]['classes']) { child.setAttribute('class', content[0][0]['classes']) }
+                if (content[0][0]['width']) { child.setAttribute('width', content[0][0]['width']) }
+                if (content[0][0]['height']) { child.setAttribute('height', content[0][0]['height']) }
+                if (content[0][0]['description']) { child.setAttribute('alt', content[0][0]['description']) }
+                parent.append(child)
+                break
+            case 'lines':
+                parent = self.grab('#content', sender)
+                let i = 0
+                for (i = 0; i < parseInt(content); i++) {
+                    parent.append(document.createElement("BR"))
+                }
+                break
+            default:
+                console.log('Object Type In Content Not Understood', content)
+        }
+
+    }
+
+    repeatItem(object, index, sender) {
+        const self = this
+        let parent = null
+        let child = null
+        switch (object.type) {
+            case 'contact card':
+                parent = self.grab('#contactCards', sender)
+                child = self.make('contact-card')
+                child.setMember(object)
+                parent.append(child)
+                break
+            case 'staff card':
+                parent = self.grab('#staffCards', sender)
+                child = self.make('staff-card')
+                child.setMember(object)
+                parent.append(child)
+                break
+            case 'accordion':
+                parent = self.grab('#linksAccordion', sender)
+                child = self.make('accordion-item')
+                child.setItem(object, index)
+                parent.append(child)
+                break
+            case 'links':
+                parent = self.grab('#linksAccordion', sender)
+                child = self.make('div', 'container p-5')
+                let title = self.make('h4', '', object.category + ':')
+                child.append(title)
+                parent.append(child)
+                object.links[0].forEach(item => {
+                    let a = self.make('a', '', item['label'])
+                    a.setAttribute('href', item['url'])
+                    child.append(a)
+                    child.append(document.createElement("BR"))
+                })
+                break
+            default:
+                console.log('Object Type In Repeats Not Understood')
+        }
+    }
 
     append(child, parent) {
         parent.appendChild(child);

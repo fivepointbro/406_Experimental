@@ -1,0 +1,69 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+
+title: 406 (M) OTS
+
+
+image: =>
+	url: ./images/406_sm2.jpg
+	classes: float-end d-block
+	width: 200
+	description: Sentinel Logo,
+
+
+subtitle: 406 (M) OTS Mission
+
+
+text: Laying the foundation of the Maritime Helicopter community for generations to come.
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/12ams/dco/qso/af9000/ch148/index.asp
+	label: <img class="m-1" height="72" src="./images/af9000_sm.png">
+	url: https://iie-portal.forces.mil.ca/
+	label: <img class="m-1" src="./images/iie_portal.jpg">
+	url: https://collaboration-airforce.forces.mil.ca/sites/12WING/406/Lists/Calendar/calendar.aspx
+	label: <img class="m-1" src="./images/406_sharepoint.jpg">
+
+
+subtitle: Wing Planning Priority
+
+
+list: =>
+	item: BFG
+	item: FE
+	item: AFG
+	item: GFA
+
+
+text: - MTF A/R to meet demand
+
+
+subtitle: Courses Currently Running
+
+
+text: <strong>Technical</strong>
+
+
+list: =>
+	item: Course #1
+	item: Course #2
+	item: Course #3
+
+
+text: <strong>Aircrew</strong>
+
+
+list: =>
+	item: Course #1
+	item: Course #2
+	item: Course #3
+
+
+{{repeated items below}}
+

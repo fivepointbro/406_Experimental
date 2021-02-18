@@ -14,7 +14,7 @@ export default class StaffCard extends HTMLElement {
         $.HTML(this.location + this.slug + '.html')
             .then(response => {
                 const clone = response;
-                $.grab('[data-image]', clone).src = member.imageURL;
+                $.grab('[data-image]', clone).src = member.image;
                 $.grab('[data-title]', clone).textContent = member.position;
                 $.grab('[data-subtitle]', clone).textContent = `${member.rank} ${member.name}`;
                 $.grab('[data-bio]', clone).textContent = member.bio;

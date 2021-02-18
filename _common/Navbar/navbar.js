@@ -26,17 +26,24 @@ export default class NavBar extends HTMLElement {
                 .then(response => {
                     const clone = response;
                     self.appendChild(clone);
-                }).then(r => {
+                    self.loaded = true;
+                })
+                .then(r => {
                     const links = $.grab('#nav-links', self)
+                    const sections = $.grab('#section-links', self)
+                    const safety = $.grab('#safety-links', self)
                     self.routes.forEach(route => {
+                        const type = route.type
                         const li = $.make('li', 'nav-item')
                         const a = $.make('a', 'nav-link', route.name.trim())
                         a.setAttribute('id', `link-${route.slug.trim()}`)
-                        a.setAttribute('href', `${route.path.trim()}`)
-                        a.setAttribute('data-link', '')
+                        a.setAttribute('router-link', `${route.path.trim()}`)
                         li.appendChild(a)
-                        links.appendChild(li)
-                        $.grab(`#link-${page}`, links).classList.add('active')
+                        if (type == 'main') { links.appendChild(li) }
+                        else if (type == 'section') { sections.appendChild(li) }
+                        else if (type == 'safety') { safety.appendChild(li) }
+                        
+                        $.grab(`#link-${page}`).classList.add('active')
                         self.loaded = true
                     })
                 })

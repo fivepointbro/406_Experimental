@@ -1,0 +1,78 @@
+
+
+----------------------
+{{page content below}}
+
+title: 406 (M) OTS General Safety
+
+
+subtitle: General Safety Policy
+
+
+image: =>
+	url: ./images/CO_gen_safety.jpg
+	classes: d-block mx-auto
+	width: 100%
+	description: CO's general safety policy
+
+
+subtitle: Links
+
+
+
+links: =>
+	url: http://intranet.mil.ca/en/health-safety-Security/safety-occupational-health-digest.page
+	label: Occupational Health and Safety Newsletter
+	url: /en/406sqn/safety/general-safety/docs/406_(M)_OTS_GS&E_ASO_Hgr_&_FBTC_Contractor_Checklist.doc
+	label: 406 Safety & Environmental ASO Hgr & FBTC Contractor Checklist
+	url: http://intranet.mil.ca/en/health-safety-security/gen-safety-training.page
+	label: General Safety Training
+	url: file://w12-shw-pv00001/common/406SQN/Unit Safety/General Safety/03-Committee Members/406_USEC.docx
+	label: Committee Members
+	url: http://shearwater.mil.ca/en/safety/general/reports-forms/index.asp
+	label: CF98/DND 663 and all Gerneral Safety Forms
+	url: http://shearwater.mil.ca/en/406sqn/safety/general-safety/presentations/Index.asp
+	label: In and Out Clearance
+	url: http://intranet.mil.ca/en/organizations/vcds/index.page
+	label: DND General Safety Program Manuals
+	url: http://laws-lois.justice.gc.ca/eng/acts/l-2/
+	label: Canada Labour Code
+	url: file://w12-shw-pv00001/common/406SQN/Web/MAP_Live_Records/Safety Talks/5 Minute Safety Talks - Schedule.xlsx
+	label: Safety Talk Schedule
+	url: http://shearwater.mil.ca/en/safety/general/
+	label: Wing General Safety
+	url: file://w12-shw-pv00001/common/406sqn/Web/MAP_Live_Records/Workplace%20Violence%20Prevention.pdf
+	label: Workplace Violence Prevention
+	url: docs/406_GS&E_Office_Checklist.doc
+	label: 406 Safety & Environmental Office Checklist
+	url: http://intranet.mil.ca/en/health-safety-security/gen-safety.page
+	label: Promotion & Motivation
+
+
+subtitle: Contacts
+
+
+links: =>
+	url: mailto:+12W%20406%20General%20Safety@406%20(M)%20OTS%20TSF@Shearwater
+	label: Inquires email +12W 406 General Safety
+
+
+	
+
+{{repeated items below}}
+
+
+type: contact card
+position: UGSO
+rank: WO
+name: Bryall
+phone: 720-4209
+email: Brayall%20WO%20CF@406%20(M)%20OTS%20Standards@Shearwater
+
+
+type: contact card
+position: D/UGSO
+rank: Sgt
+name: Allen
+phone: 720-4492
+email: Gary.Allen3@forces.gc.ca

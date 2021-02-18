@@ -3,12 +3,14 @@
 import Helper from './_js/helpers.js';
 //********** [Views] These are our special components that can be reused on multiple pages
 import StaffCard from './webcomponents/card/card.js';
-//********** [Views] These are our "pages"
-import Homeview from './views/home/home.js';
-import Linkview from './views/link/link.js';
-import ASOview from './views/sections/aso/aso.js'
+import ContactCard from './webcomponents/contactcard/contactcard.js';
+import Accordion from './webcomponents/accordion/accordion.js';
+//********** [Views] These are our page templates
+import Mainview from './views/main.js';
+import Sectionview from './views/sections/section.js';
+import Safetyview from './views/safety/safety.js';
 
-
+// Was the user in dark mode before?
 if (localStorage.viewMode) { document.querySelector('html').setAttribute('color-mode', localStorage.viewMode) };
 
 
@@ -17,16 +19,32 @@ if (localStorage.viewMode) { document.querySelector('html').setAttribute('color-
 class Router {
 
     routes = [];
+    views = [];
     loaded = false;
 
     appWindow = $.grab('#page-content');
 
     constructor() {
-        this.navigateTo('./'); // defaults to home when it's first constructed
         const self = this;
         $.TEXT('./routes.txt').then(text => {
             self.routes = $.textToObject(text)
-        });
+            return self.routes
+        }).then(reply => { // builds the page templates
+            const b = []
+            reply.forEach(item => {
+                const a = {}
+                const c = $.make(item.type + '-view')
+                a.slug = item.slug
+                c.slug = a.slug
+                c.data = a.slug + '.txt'
+                c.build()
+                a.view = c
+                b.push(a)
+            })
+            self.views = b
+        }).finally(a => {
+            self.navigateTo(self.getRelativePath()); // navigate to wherever we currently are
+        })
     };
 
     getRelativePath() {
@@ -41,15 +59,17 @@ class Router {
         const potentialMatches = this.routes.map(route => {
             return {
                 slug: route.slug.trim(),
-                view: route.view.trim(),
                 isMatch: relPath == route.path.trim()
             };
         });
 
         let match = potentialMatches.find(potentialMatch => potentialMatch.isMatch);
         if (!match) {
-            router.displayView('home-view', 'home');
-        } else { router.displayView(match.view, match.slug) }
+            router.navigateTo('./')
+        } else {
+            const a = router.views.filter(view => view.slug == match.slug)
+            router.displayView(a[0].view, match.slug)
+        }
     };
 
     displayView(view, slug) {
@@ -58,7 +78,7 @@ class Router {
 
         $.empty(this.appWindow);
 
-        this.appWindow.append(document.createElement(view));
+        this.appWindow.append(view);
 
         document.getElementById('navbar').setAttribute('page', slug);
         const bar = document.getElementById('navbarCollapse');
@@ -82,7 +102,7 @@ class Router {
 
 }
 
-function toggleDark() {
+function toggleDark() { // we've got dark mode!
     const view = $.grab('html')
     const current = view.getAttribute('color-mode')
     if (current == 'light') {
@@ -92,26 +112,22 @@ function toggleDark() {
         view.setAttribute('color-mode', 'light')
         localStorage.viewMode = 'light'
     }
-
-
 }
-
+// our special listeners, they prevent page reload for any links that have "router-link" as an attribute
 function listeners() {
-    // our special listeners, they prevent page reload for any link tags or buttons that have "data-link" as an attribute
     document.addEventListener('click', e => {
-        if (e.target.matches('[data-link]')) {
+        if (e.target.matches('[router-link]')) {
             e.preventDefault();
-            app.navigateTo(e.target.href);
+            app.navigateTo(e.target.getAttribute('router-link'));
         };
         if (e.target.matches('#modeswitch')) {
             toggleDark()
         }
     });
 }
-
 //************************************************************************************************************** [APP] This is the app-specific code
 window.$ = new Helper();
-//********** [Header & Footer] Since these are hard-coded on the HTML page, they need to be imported immediately after the Helper
+//********** [Header & Footer] Since these are hard-coded on the HTML page, they need to be imported before starting the app
 import('./_common/navbar/navbar.js');
 import('./_common/footer/footer.js');
 //********** [App] Start the app.. no really, that's it

@@ -1,0 +1,39 @@
+
+
+----------------------
+{{page content below}}
+
+title: SAMEO
+
+
+subtitle: SAMEO Intent
+
+
+text: Develop technical expertise and skills within CH148 maintenance community to provide essential aircraft support to 12 Wing objectives.
+
+{{repeated items below}}
+
+type: contact card
+position: SAMEO
+rank: Maj
+name: Anderson
+office: SH344 Rm 230
+phone: 720-1127 or BB 902 476-9192
+email: Anderson%20Maj%20RD@406%20(M)%20OTS%20SAMEO@Shearwater
+
+
+type: contact card
+position: D/SAMEO
+rank: Lt
+name: Wiebe
+office: SH344 Rm 231
+phone: 720-2411 or BB 902 266-7849
+email: Wiebe%20Lt%20JGA@406%20(M)%20OTS%20ASO@Shearwater
+
+
+
+type: accordion
+category: Links
+links: =>
+	url: http://winnipeg.mil.ca/cms/en/A4Maint/AMStandards/AMStds.aspx
+	label: A4 Maint & P Series,

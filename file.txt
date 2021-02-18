@@ -1,50 +1,18 @@
-This top section of the file is ONLY used to explain how it works
-None of this will actually appear on your page - don't worry!
-Everything after "page content below" is stuff that appears once on the page
-Things like the title of the page, or any large bodies of text
-Everything after "repeated items below" means multiple items, like a list of "people"
-You can also have sub-lists, like a list of cars that each person owns
-This is essentially my own coding language designed for people who can't code
-Follow the rules and let the algorhithm do the rest!
-----------------------
 
-Rules: Please read!
-Only one statement per line
-You can use a single line break..
-
-Or two line breaks as above, so there's a gap between lines (easier to read)
-Any line that doesn't start with a label (for example "Rules:")...
-Will be assumed to be a part of the most recent label item
-In this case all these lines after "Rules" would be part of "Rules"
-To make a new repeatable object, just make three line breaks
-You can use more than three if you'd like, but three is the minimum
-
-
-Rules: This would be considered a new object, in this case a new "set" of rules
-And this line would be considered part of that set of rules. Makes sense, right?
-
-Arrows represent a heirarchy, such as a list. Use the right "=>" to go down
-And use "tab" (or hit the space bar 4+ times) to indent the sub-list items 
-Then put a comma at the very end of each object, on the last item only
-For example...
-
-List: =>
-    name: Bob
-    hat: blue,
-
-    name: Rob
-    hat: red,
-
-That would create a list called "List" with two objects (people) inside of it
-And each object would have two properties, in this case a name and a hat color
-
-That's all there is to it. Good luck and have fun! Try not to break it
 
 ----------------------
 {{page content below}}
 
 title: Links and References
+
+
 content: Every page should have a little blurb to explain what the page is about.
+
+
+list: =>
+	item: Management of the quality system by planning, control, assurance and improvement
+	item: Performing the Internal Quality Audits, including follow-ups and special audits
+	item: Provide Sqn personnel training in quality related matters
 
 {{repeated items below}}
 
@@ -52,16 +20,13 @@ type: General
 description: These are all the general links. This is where general links will go.
 links: =>
     url: www.whatever1.com
-    label: This is one of the links,
-
+    label: This is one of the links
     url: www.whatever2.com
-    label: This is another link,
-
+    label: This is another link
     url: www.whatever3.com
-    label: This is the third link,
-
+    label: This is the third link
     url: www.whatever4.com
-    label: This is the last one,
+    label: This is the last one
 
 
 
@@ -70,30 +35,29 @@ type: External
 description: These are the external links. They bring you to other places.
 links: =>
     url: www.whatever.com
-    label: This is one of the links,
+    label: This is one of the links
 
     url: www.whatever.com
-    label: This is another link,
+    label: This is another link
 
     url: www.whatever.com
-    label: This is the third link,
+    label: This is the third link
 
     url: www.whatever.com
-    label: This is the last one,
-
+    label: This is the last one
 
 
 type: Files
 description: These are files. You can download them.
 links: =>
     url: www.whatever.com,
-    label: This is one of the links,
+    label: This is one of the links
     url: www.whatever.com
-    label: This is another link,
+    label: This is another link
     url: www.whatever.com
-    label: This is the third link,
+    label: This is the third link
     url: www.whatever.com
-    label: This is the last one,
+    label: This is the last one
 
 
 
@@ -102,13 +66,13 @@ type: Airworthiness
 description: If you don't know what this is, then go home.
 links: =>
             url: www.whatever.com,
-            label: This is one of the links,
+            label: This is one of the links
 
             url: www.whatever.com
-            label: This is another link,
+            label: This is another link
 
             url: www.whatever.com
-            label: This is the third link,
+            label: This is the third link
 
             url: www.whatever.com
-            label: This is the last one,
+            label: This is the last one

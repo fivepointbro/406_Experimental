@@ -210,9 +210,9 @@ a {
   color: var(--primary-color);
   text-decoration: underline;
 }
-a:hover {
-  color: #0a58ca;
-}
+    a:hover {
+        color: var(--secondary-color);
+    }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
