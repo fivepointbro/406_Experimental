@@ -10,7 +10,7 @@ subtitle: Links:
 
 
 links: =>
-	url: http://winnipeg.mil.ca/cms/en/A4Maint/AMStandards/AMStds.aspx
+	url: http://winnipeg.mil.ca/cms/en/DComd-FG/A4-Maint/A4_Maint_AMSET/AMStandards/AMStds.aspx
 	label: A4 Maint & P Series
 	url: http://publications.mil.ca/epubs/pubs/pubSearch.jsp
 	label: National Publications Search

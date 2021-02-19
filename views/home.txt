@@ -10,10 +10,10 @@ title: 406 (M) OTS
 
 
 image: =>
-	url: ./images/406_sm2.jpg
+	url: ./images/406_crest.png
 	classes: float-end d-block
 	width: 200
-	description: Sentinel Logo,
+	description: 406 SQN Crest,
 
 
 subtitle: 406 (M) OTS Mission
