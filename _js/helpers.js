@@ -13,7 +13,7 @@ export default class Helper {
         // into javascript objects we can use to iterate and display our data on our views
         const fil = el => el != null && el != '' && el.length > 2
         const reg1 = /{{.+?}}/
-        const reg2 = /$[\n\s]{5,}^/m
+        const reg2 = /$\n{3,}^/m
         const reg3 = /^\s{3,}|\t/
 
         let obj = data.split(reg1).slice(1).join('\n')
