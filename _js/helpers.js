@@ -1,3 +1,4 @@
+
 export default class Helper {
 
     file = './file.txt';
@@ -222,8 +223,11 @@ export default class Helper {
         };
     };
 
-    DOWNL(file, filename) {
-        return fetch(file)
+    DOWNL(file) {
+    	const url = encodeURIComponent(file)
+    	let filename = file.split('/')
+    	filename = filename[filename.length-1]    	
+        return fetch('download.asp?file=' + url)
             .then(response => {
                 return response.blob();
             })
@@ -231,11 +235,11 @@ export default class Helper {
                 const url = URL.createObjectURL(file);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = filename || 'download';
+                a.download = filename;
                 const clickHandler = () => {
                     setTimeout(() => {
                         URL.revokeObjectURL(url);
-                        this.removeEventListener('click', clickHandler);
+                        a.removeEventListener('click', clickHandler);
                     }, 150);
                 };
                 a.addEventListener('click', clickHandler, false);
@@ -273,4 +277,4 @@ export default class Helper {
                 console.log('Failed to fetch TEXT:', err);
             });
     };
-}	
+}
