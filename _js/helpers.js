@@ -6,7 +6,7 @@ export default class Helper {
 
     constructor() {
         // doesn't need to be constructed but we can put things in here for testing purposes
-        this.TEXT(this.file, null).then(text => this.data = text);
+        // this.TEXT(this.file, null).then(text => this.data = text);
     };
 
     textToObject(data, view, verbose) {
@@ -149,6 +149,16 @@ export default class Helper {
                     parent.append(document.createElement("BR"))
                 })
                 break
+            case 'files':
+            	parent = self.grab('#content', sender)
+                content[0].forEach(item => {
+                    child = self.make('a', '', item['label'])
+                    child.setAttribute('href', 'javascript:void(0);')
+                    child.addEventListener("click", e => { self.DOWNL(item['url']) })
+                    parent.append(child)
+                    parent.append(document.createElement("BR"))
+                })
+            	break
             case 'image':
                 parent = self.grab('#content', sender)
                 child = self.make('img')
