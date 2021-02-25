@@ -2,7 +2,7 @@
 
 
 /* color variables for light and dark mode */
-:root[color-mode="light"] {
+:root[color-mode=light] {
     --primary-color: #20558a;
     --secondary-color: #0b5ed7;
     --background: #fff;
@@ -20,7 +20,7 @@
     --title: 10px;
 }
 
-:root[color-mode="dark"] {
+:root[color-mode=dark] {
     --primary-color: #78a3cf;
     --secondary-color: #7494b5;
     --background: #121212;
@@ -232,3 +232,8 @@ ul {
         transition: .2s all ease;
         z-index: 400;
     }
+.file-link {
+	width: 150px;
+	text-align: center;
+	margin: 10px;
+}

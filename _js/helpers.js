@@ -205,6 +205,12 @@ export default class Helper {
                 child.setItem(object, index)
                 parent.append(child)
                 break
+            case 'downloads':
+                parent = self.grab('#linksAccordion', sender)
+                child = self.make('downloads-list')
+                child.setFolder(object, index)
+                parent.append(child)
+                break
             case 'links':
                 parent = self.grab('#linksAccordion', sender)
                 child = self.make('div', 'container p-5')
@@ -232,11 +238,24 @@ export default class Helper {
             parent.removeChild(parent.firstChild);
         };
     };
+    
+    FOLDR(folder) {
+    	const url = encodeURIComponent(folder)
+    	return fetch('folder.asp?folder="' + url + '"')
+    		.then(response => {
+    			return response.json()
+    		})
+    }
 
-    DOWNL(file) {
+    DOWNL(file, name) {
     	const url = encodeURIComponent(file)
-    	let filename = file.split('/')
-    	filename = filename[filename.length-1]    	
+    	let filename
+    	if (name) {
+    		filename = name
+    	} else {
+    		filename = file.split('/')
+    		filename = filename[filename.length-1]
+    	} 	
         return fetch('download.asp?file=' + url)
             .then(response => {
                 return response.blob();
