@@ -174,6 +174,21 @@ ul {
 .nav-link {
     cursor: pointer;
 }
+.mil-links {
+	display: flex;
+	padding: 0px 15px;
+	flex-grow: 1;
+    flex-wrap: inherit;
+    justify-content: flex-end;
+}
+.mil-links a {
+	margin: 0px 10px;
+	color: var(--light-color);
+	text-decoration: none;
+}
+.mil-links a:hover {
+	color: rgba(255,255,255,0.55);
+}
 
 /* styling the rest of the app */
 .main-content {
