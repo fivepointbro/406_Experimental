@@ -5,6 +5,7 @@ import Helper from './_js/helpers.js';
 import StaffCard from './webcomponents/card/card.js';
 import ContactCard from './webcomponents/contactcard/contactcard.js';
 import Accordion from './webcomponents/accordion/accordion.js';
+import Downloads from './webcomponents/downloads/downloads.js';
 //********** [Views] These are our page templates
 import Mainview from './views/main.js';
 import Sectionview from './views/sections/section.js';

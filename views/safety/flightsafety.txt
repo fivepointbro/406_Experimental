@@ -22,19 +22,24 @@ subtitle: Documents
 
 
 links: =>
-	url: docs/406%20Flight%20Safety%20Program%20CO%20Darras.docx
+	url: http://shearwater.mil.ca/en/406sqn/safety/flight-safety/docs/406 Flight Safety Program CO Darras.docx
 	label: 406 Flight Safety Program
-	url: docs/CF%20215-E.pdf
+	url: http://shearwater.mil.ca/en/406sqn/safety/flight-safety/docs/CF 215-E.pdf
 	label: Flight Safety Occurrence Report (215-E)
+
+
+files: =>
+	url: //w12-shw-pv00001/common/406sqn/admin & hq/5.  sqn orderly room (sor)/webpage/recall list/recall list.xlsx
+	label: Test file link (downloads the recall list)
 
 
 subtitle: Quick Links
 
 
 links: =>
-	url: /en/406sqn/safety/flight-safety/docs/NEW%202020%20FS%20Awareness%20Brief.ppt
+	url: /en/406sqn/safety/flight-safety/docs/NEW 2020 FS Awareness Brief.ppt
 	label: Unit Flight Safety Awareness Brief
-	url: /en/safety/flight-safety/docs/12%20Wg%20Flight%20Safety%20Accident%20Checklist.doc
+	url: /en/safety/flight-safety/docs/12 Wg Flight Safety Accident Checklist.doc
 	label: Accident Checklist
 	url: /en/oss/erp/WingERP.pdf
 	label: Emergency Response Plan

@@ -13,7 +13,7 @@ image: =>
 	url: ./images/406_crest.png
 	classes: float-end d-block
 	width: 200
-	description: 406 SQN Crest,
+	description: 406 SQN Crest
 
 
 subtitle: 406 (M) OTS Mission

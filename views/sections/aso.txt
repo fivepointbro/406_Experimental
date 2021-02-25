@@ -71,63 +71,63 @@ email: aso.guy@forces.gc.ca
 type: accordion
 category: Recent P-Series Changes
 links: =>
-	url: pdf/Approved%20Technical%20References.pdf
+	url: pdf/Approved Technical References.pdf
 	label: Approved Technical References
-	url: pdf/Change%20to%20Hot%20Refueling.sflb.ashx.pdf
+	url: pdf/Change to Hot Refueling.sflb.ashx.pdf
 	label: Change to Hot Refueling
-	url: pdf/Fatigue%20Risk%20Management%20System.pdf
+	url: pdf/Fatigue Risk Management System.pdf
 	label: Fatigue Risk Management System
-	url: pdf/Airworthiness%20and%20Employment%20Continuum.pdf
+	url: pdf/Airworthiness and Employment Continuum.pdf
 	label: Airworthiness and Employment Continuum
-	url: pdf/Recording%20of%20TEMMIS%20numbers.pdf
+	url: pdf/Recording of TEMMIS numbers.pdf
 	label: Recording of TEMMIS numbers
 
 
 type: accordion
 category: TAA Accreditation
 links: =>
-	url: pdf/Accreditation%20Certificate.pdf
+	url: pdf/Accreditation Certificate.pdf
 	label: Accreditation Certificate
-	url: pdf/Accreditation%20Letter.pdf
+	url: pdf/Accreditation Letter.pdf
 	label: Accreditation Letter
 
 
 type: accordion
 category: SMM - SAMS - SMM Delegations
 links: =>
-	url: pdf/Maj%20Anderson%20SMM%20Authority.pdf
+	url: pdf/Maj Anderson SMM Authority.pdf
 	label: Maj Anderson SMM Authority
-	url: pdf/Maj%20Anderson%204129.pdf
+	url: pdf/Maj Anderson 4129.pdf
 	label: Maj Anderson 4129
-	url: pdf/MWO%20Spencer%20SAMS%20Authorization4129.pdf
+	url: pdf/MWO Spencer SAMS Authorization4129.pdf
 	label: MWO Spencer SAMS Authorization
-	url: pdf/WO%20Day%20SAMS%20Authorization%204129.pdf
+	url: pdf/WO Day SAMS Authorization 4129.pdf
 	label: WO Day SAMS Authorization
-	url: pdf/MWO%20Spencer%20Delegated%20SMMs%204129.pdf
+	url: pdf/MWO Spencer Delegated SMMs 4129.pdf
 	label: MWO Spencer Deligated SMMs
-	url: pdf/Lt%20Wiebe%20Delegated%20SMMs%204129.pdf
+	url: pdf/Lt Wiebe Delegated SMMs 4129.pdf
 	label: Lt Wiebe Delegated SMMs
 
 
 type: accordion
 category: Airworthiness Delegations
 links: =>
-	url: pdf/Maj%20Anderson%20Entry%20Authority.pdf
+	url: pdf/Maj Anderson Entry Authority.pdf
 	label: Maj Anderson Entry Authority
-	url: pdf/MWO%20Savage%20Weighing%20officer%204129.pdf
+	url: pdf/MWO Savage Weighing officer 4129.pdf
 	label: MWO Savage Weighing Officer
-	url: pdf/WO%20Day%20Weighing%20Officer%204129.pdf
+	url: pdf/WO Day Weighing Officer 4129.pdf
 	label: WO Day Weighing Officer
-	url: pdf/WO%20Rayment%20Weighing%20Officer%204129.pdf
+	url: pdf/WO Rayment Weighing Officer 4129.pdf
 	label: WO Rayment Weighing Officer
-	url: pdf/Paris%20UTCC%20signed.pdf
+	url: pdf/Paris UTCC signed.pdf
 	label: Sgt Paris Unit Tool Control Coordinator
 
 
 type: accordion
 category: Rob Authority
 links: =>
-	url: pdf/Rob%20Authority%20Memo.pdf
+	url: pdf/Rob Authority Memo.pdf
 	label: Rob Authority Memo
 
 
@@ -141,30 +141,30 @@ links: =>
 type: accordion
 category: Exception Letters
 links: =>
-	url: pdf/Cpl%20Gwilliam%20Exception%20Letter.pdf
+	url: pdf/Cpl Gwilliam Exception Letter.pdf
 	label: Cpl Gwilliam Exception Letter
-	url: pdf/Cpl%20Theriault%20Exception%20Letter.pdf
+	url: pdf/Cpl Theriault Exception Letter.pdf
 	label: Cpl Theriault Exception Letter
-	url: pdf/Cpl%20Vinat%20Exception%20Letter.pdf
+	url: pdf/Cpl Vinat Exception Letter.pdf
 	label: Cpl Vinat Exception Letter
-	url: pdf/MCpl%20Watters%20Lvl%20C%20Exception%20Letter.pdf
+	url: pdf/MCpl Watters Lvl C Exception Letter.pdf
 	label: MCpl Watters Lvl C Exception Letter
 
 
 type: accordion
 category: Apprentice/Off Fleet Journeyman development
 links: =>
-	url: pdf/00136%20-%20AVS%20Tech%20-%20Trg%20Stream%20Diagram%20-%20Rev%20Feb%2020.pdf
+	url: pdf/00136 - AVS Tech - Trg Stream Diagram - Rev Feb 20.pdf
 	label: AVS Tech Training Stream Diagram
-	url: pdf/00135%20-%20AVN%20Tech%20-%20Trg%20Stream%20Diagram%20-%20Rev%20Jan%2020.pdf
+	url: pdf/00135 - AVN Tech - Trg Stream Diagram - Rev Jan 20.pdf
 	label: AVN Tech Training Stream Diagram
-	url: pdf/00138%20-%20ACS%20Tech%20-%20Trg%20Stream%20Diagram%20-%20Rev%20Jan%2020.pdf
+	url: pdf/00138 - ACS Tech - Trg Stream Diagram - Rev Jan 20.pdf
 	label: ACS Tech Training Stream Diagram
-	url: pdf/00261%20-%20AWS%20Tech%20-Trg%20Stream%20Diagram%20-%20Rev%20Jun%2020.pdf
+	url: pdf/00261 - AWS Tech -Trg Stream Diagram - Rev Jun 20.pdf
 	label: AWS Tech Training Stream Diagram
-	url: pdf/A4%20Maint%20Apprentice%20Letter.pdf
+	url: pdf/A4 Maint Apprentice Letter.pdf
 	label: A4 Maint Apprentice Letter
-	url: pdf/AJKS%20OJPR.pdf
+	url: pdf/AJKS OJPR.pdf
 	label: AJKS OJPR
-	url: pdf/FETP%20Annex%20B.pdf
+	url: pdf/FETP Annex B.pdf
 	label: FETP Annex B

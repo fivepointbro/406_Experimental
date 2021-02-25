@@ -35,7 +35,7 @@ export default class Sectionview extends HTMLElement {
     displayContent(all) {
         const self = this
         if (all.length === 0) {
-            const p = $.make('p', '', 'No main content to show. Contact the unit webmaster!');
+            const p = $.make('p', 'd-none', 'No main content to show. Contact the unit webmaster!');
             self.appendChild(p);
         } else {
             all.forEach((item, ind) => {
@@ -47,7 +47,7 @@ export default class Sectionview extends HTMLElement {
     displayRepeats(all) {
         const self = this
         if (all.length === 0) {
-            const p = $.make('p', '', 'No content to show. Contact the unit webmaster!');
+            const p = $.make('p', 'd-none', 'No repeat content to show. Contact the unit webmaster!');
             self.appendChild(p);
         } else {
             all.forEach((item, ind) => {
