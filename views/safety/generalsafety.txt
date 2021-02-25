@@ -76,3 +76,13 @@ rank: Sgt
 name: Allen
 phone: 720-4492
 email: Gary.Allen3@forces.gc.ca
+
+
+type: downloads
+title: Presentations
+folder: //w12-shw-iv00001/website/en/406sqn/safety/general-safety/presentations
+
+
+type: downloads
+title: Downloads
+folder: //w12-shw-iv00001/website/en/406sqn/safety/general-safety/docs

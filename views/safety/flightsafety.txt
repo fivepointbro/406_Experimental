@@ -96,3 +96,13 @@ rank: MCpl
 name: Sarah Getz
 phone: 720-4441 (902) 478-8320
 email: Sarah.Getz@forces.gc.ca
+
+
+type: downloads
+title: Briefings
+folder: //w12-shw-iv00001/website/en/406sqn/safety/flight-safety/briefings
+
+
+type: downloads
+title: Downloads
+folder: //w12-shw-iv00001/website/en/406sqn/safety/flight-safety/docs
