@@ -107,37 +107,14 @@ links: =>
 	label: (R:) Drive
 	url: Helping-Professionals-Contact-Card-2016.English.pdf
 	label: Military Emergency contacts and useful numbers
-
-
-type: accordion
-category: Correspondence
-links: =>
-	url: http://shearwater.mil.ca/en/IM/docs/12-wing-file-plan.pdf
-	label: File Number Index
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/CFLTC%20Military%20Writing%20Guide_PROD-Novmber-2016.pdf
-	label: Military Writing Guide
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%20Memo%20(multi%20refs%20multi%20paras).doc
-	label: Sample Memo (multi refs, multi paras)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%20Military%20Letter%20(1%20ref%201%20para).doc
-	label: Sample Military Letter (1 ref, 1 para)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%20Military%20Letter%20(multi%20refs,%20multi%20paras).doc
-	label: Sample Military Letter (multi refs, Multi para)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%20Letter%20to%20Public.doc
-	label: Sample Letter to Public
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%20Minutes%20of%20a%20Meeting.doc
-	label: Sample Minutes of A Meeting
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20BN.docx
-	label: Sample Briefing Note
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Sample%20-%201%20CAD%20SSS%20to%20Comd%201%20CAD.docx
-	label: 1 CAD SSS to Comd 1 CAD
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/Op%20Order%20Checklist%20and%20Instructions.pdf
-	label: Op Order Check List and Instructions (wing)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/DND%20Letterhead.doc
-	label: DND Letterhead
-	url: file://W12-SHW-PV00001/Common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/Correspondence/12%20Wing%20Staff%20Summary%20Sheet.pdf
-	label: 12 Wing Staff Summary Sheet (must be used when staffing to WComd)
 	url: file://W12-SHW-PV00001/Common/Wing_Shared/Staffing/videos/Microsoft%20Digital%20Signature.mp4%20
 	label: Applying Digital Signatures to MS Documents
+
+
+type: downloads
+title: Correspondence
+folder: //w12-shw-pv00001/common/406SQN/Admin & HQ/5.  Sqn Orderly Room (SOR)/Webpage/Correspondence/
+
 
 
 type: accordion
@@ -167,33 +144,9 @@ links: =>
 	label: Notice of Intent to Travel
 
 
-type: accordion
-category: TD Information and Documents
-links: =>
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/DND%202999%20Instruction.docx
-	label: DND 2999 (TD request form) Instructions
-	url: file://W12-SHW-PV00001/Common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/idtc-guide-to-national-defence-travel-services.docx
-	label: Guide to National Defence Travel Services
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/Op%20Order%20-%20TD%20OPI%20Insructions.docx
-	label: Op Order – TD OPI Instructions (unit)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/DND%202999%20Blank.pdf
-	label: DND 2999 Blank
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/DND%202999%20Sample.pdf
-	label: DND 2999 Sample
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/TD%20Itinerary%20Worksheet.doc
-	label: TD Itinerary Worksheet (to be completed upon return)
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/MEMBER%20REQUESTS%20TO%20USE%20PMV%20ACKNOWLEDGEMENT%20OF%20LIMITATIONS%20(002).docx
-	label: PMV Waiver
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/TD%20Checklist%20and%20Terms%20of%20Travel.docx
-	label: TD Checklist and Terms of Travel
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/Annual%20Leave%20with%20TD%20Request.dotx
-	label: Annual Leave with TD Request
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/Temporary%20Duty.pptx
-	label: Temporary Duty Guidance Presentation
-	url: file://w12-shw-pv00001/common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/Adding%20Travel%20Arrangers%20in%20HRG%20v2.docx
-	label: Adding Travel Arrangers in HRG
-	url: file://W12-SHW-PV00001/Common/406SQN/Admin%20&%20HQ/5.%20%20Sqn%20Orderly%20Room%20(SOR)/Webpage/TD%20Information%20and%20documents/Lost%20Receipt%20Statement.doc
-	label: Lost Receipt Statement
+type: downloads
+title: TD Information and Documents
+folder: //w12-shw-pv00001/common/406SQN/Admin & HQ/5.  Sqn Orderly Room (SOR)/Webpage/TD Information and documents/
 
 
 type: accordion

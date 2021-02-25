@@ -36,4 +36,4 @@ type: accordion
 category: Links
 links: =>
 	url: http://winnipeg.mil.ca/cms/en/DComd-FG/A4-Maint/A4_Maint_AMSET/AMStandards/AMStds.aspx
-	label: A4 Maint & P Series,
+	label: A4 Maint & P Series

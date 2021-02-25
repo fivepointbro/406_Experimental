@@ -10,7 +10,7 @@ image: =>
 	url: ./images/sent.png
 	classes: mx-auto d-block
 	width: 250
-	description: Sentinel Logo,
+	description: Sentinel Logo
 
 
 subtitle: What is the Sentinel Program?
@@ -27,22 +27,22 @@ text: Sentinels are trained volunteer CAF members and DND employees who support 
 
 
 list: =>
-	item: Observing people within a unit to determine if anyone is showing signs of distress.,
-	item: Confirming that a person is under some form of stress and that support is needed to prevent things from getting worse.,
-	item: Taking action to support a person in distress (e.g. listening, being present, supporting).,
-	item: Referring a distressed person to the appropriate resources including chaplain, social worker, support group, etc.,
+	item: Observing people within a unit to determine if anyone is showing signs of distress.
+	item: Confirming that a person is under some form of stress and that support is needed to prevent things from getting worse.
+	item: Taking action to support a person in distress (e.g. listening, being present, supporting).
+	item: Referring a distressed person to the appropriate resources including chaplain, social worker, support group, etc.
 
 
 text: Drawn from all ranks and classifications across the Canadian Armed Forces (CAF) and the Department of National Defence (DND), Sentinels need to
 
 
 list: =>
-	item: Be interested in helping others,
-	item: Be open-minded and non-judgemental,
-	item: Be accessible, available and attentive,
-	item: Be committed to learning specific skills related to their role as a Sentinel,
-	item: Be careful to safeguard personal privacy, and,
-	item: Be ready to help others in accessing the resources they need,
+	item: Be interested in helping others
+	item: Be open-minded and non-judgemental
+	item: Be accessible, available and attentive
+	item: Be committed to learning specific skills related to their role as a Sentinel
+	item: Be careful to safeguard personal privacy, and
+	item: Be ready to help others in accessing the resources they need
 
 
 subtitle: Sentinel Training
@@ -53,12 +53,12 @@ It is also recommended that Sentinels participate in the following PSP Health Pr
 
 
 list: =>
-	item: Mental Fitness and Suicide Awareness,
-	item: Alcohol, Other Drugs, Gambling & Gaming Awareness Training,
-	item: Stress, Take Charge!,
-	item: Respect in the CAF,
-	item: Managing Angry Moments,
-	item: Inter-Comm,
+	item: Mental Fitness and Suicide Awareness
+	item: Alcohol, Other Drugs, Gambling & Gaming Awareness Training
+	item: Stress, Take Charge!
+	item: Respect in the CAF
+	item: Managing Angry Moments
+	item: Inter-Comm
 
 
 text: It is also recommended that Sentinels participate in other training related to metnal health including cognitive behaviour therapy and mindfulness.
@@ -71,12 +71,12 @@ text: The Sentinel Program is a benefit in that it
 
 
 list: =>
-	item: Encourages people experiencing distress to speak to a trusted peer,
-	item: Strengthens work relationships within a unit,
-	item: Enables trained persons to recognize the early signs of distress,
-	item: Increases awareness in what supports are available,
-	item: Helps people who may have considered suicide, and,
-	item: Assists people in distress with getting the help they need in a timely manner,
+	item: Encourages people experiencing distress to speak to a trusted peer
+	item: Strengthens work relationships within a unit
+	item: Enables trained persons to recognize the early signs of distress
+	item: Increases awareness in what supports are available
+	item: Helps people who may have considered suicide, and
+	item: Assists people in distress with getting the help they need in a timely manner
 
 
 subtitle: How Do I Become a Sentinel?
@@ -89,9 +89,9 @@ text: If you wish to become a Sentinel you will need to
 
 
 list: =>
-	item: Inform your unit Lead Sentinel of your interest,
-	item: Request and obtain approval from your chain of command,
-	item: Be nominated for the Sentinel training course (now MITE coded), and,
+	item: Inform your unit Lead Sentinel of your interest
+	item: Request and obtain approval from your chain of command
+	item: Be nominated for the Sentinel training course (now MITE coded), and
 	item: Complete the Sentinel training course
 
 
