@@ -105,7 +105,7 @@ links: =>
 	label: French Translation
 	url: file://W12-shw-pv00001/cr/CR_U
 	label: (R:) Drive
-	url: Helping-Professionals-Contact-Card-2016.English.pdf
+	url: http://shearwater.mil.ca/en/406sqn/admin/Helping-Professionals-Contact-Card-2016.English.pdf
 	label: Military Emergency contacts and useful numbers
 	url: file://W12-SHW-PV00001/Common/Wing_Shared/Staffing/videos/Microsoft%20Digital%20Signature.mp4%20
 	label: Applying Digital Signatures to MS Documents

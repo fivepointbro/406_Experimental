@@ -68,103 +68,41 @@ phone: 902-720-3279
 email: aso.guy@forces.gc.ca
 
 
-type: accordion
-category: Recent P-Series Changes
-links: =>
-	url: pdf/Approved Technical References.pdf
-	label: Approved Technical References
-	url: pdf/Change to Hot Refueling.sflb.ashx.pdf
-	label: Change to Hot Refueling
-	url: pdf/Fatigue Risk Management System.pdf
-	label: Fatigue Risk Management System
-	url: pdf/Airworthiness and Employment Continuum.pdf
-	label: Airworthiness and Employment Continuum
-	url: pdf/Recording of TEMMIS numbers.pdf
-	label: Recording of TEMMIS numbers
+type: downloads
+title: Recent P-Series Changes
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/recent p
 
 
-type: accordion
-category: TAA Accreditation
-links: =>
-	url: pdf/Accreditation Certificate.pdf
-	label: Accreditation Certificate
-	url: pdf/Accreditation Letter.pdf
-	label: Accreditation Letter
+type: downloads
+title: TAA Accreditation
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/taa accred
 
 
-type: accordion
-category: SMM - SAMS - SMM Delegations
-links: =>
-	url: pdf/Maj Anderson SMM Authority.pdf
-	label: Maj Anderson SMM Authority
-	url: pdf/Maj Anderson 4129.pdf
-	label: Maj Anderson 4129
-	url: pdf/MWO Spencer SAMS Authorization4129.pdf
-	label: MWO Spencer SAMS Authorization
-	url: pdf/WO Day SAMS Authorization 4129.pdf
-	label: WO Day SAMS Authorization
-	url: pdf/MWO Spencer Delegated SMMs 4129.pdf
-	label: MWO Spencer Deligated SMMs
-	url: pdf/Lt Wiebe Delegated SMMs 4129.pdf
-	label: Lt Wiebe Delegated SMMs
+type: downloads
+title: SMM - SAMS - SMM Delegations
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/smm delegations
 
 
-type: accordion
-category: Airworthiness Delegations
-links: =>
-	url: pdf/Maj Anderson Entry Authority.pdf
-	label: Maj Anderson Entry Authority
-	url: pdf/MWO Savage Weighing officer 4129.pdf
-	label: MWO Savage Weighing Officer
-	url: pdf/WO Day Weighing Officer 4129.pdf
-	label: WO Day Weighing Officer
-	url: pdf/WO Rayment Weighing Officer 4129.pdf
-	label: WO Rayment Weighing Officer
-	url: pdf/Paris UTCC signed.pdf
-	label: Sgt Paris Unit Tool Control Coordinator
+type: downloads
+title: Airworthiness Delegations
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/airworthiness delegations
 
 
-type: accordion
-category: Rob Authority
-links: =>
-	url: pdf/Rob Authority Memo.pdf
-	label: Rob Authority Memo
+type: downloads
+title: Rob Authority
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/rob auth
 
 
-type: accordion
-category: MMEL (Unapproved)
-links: =>
-	url: pdf/MMEL.pdf
-	label: MMEL
+type: downloads
+title: MMEL (Unapproved)
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/mmel
 
 
-type: accordion
-category: Exception Letters
-links: =>
-	url: pdf/Cpl Gwilliam Exception Letter.pdf
-	label: Cpl Gwilliam Exception Letter
-	url: pdf/Cpl Theriault Exception Letter.pdf
-	label: Cpl Theriault Exception Letter
-	url: pdf/Cpl Vinat Exception Letter.pdf
-	label: Cpl Vinat Exception Letter
-	url: pdf/MCpl Watters Lvl C Exception Letter.pdf
-	label: MCpl Watters Lvl C Exception Letter
+type: downloads
+title: Exception Letters
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/exception
 
 
-type: accordion
-category: Apprentice/Off Fleet Journeyman development
-links: =>
-	url: pdf/00136 - AVS Tech - Trg Stream Diagram - Rev Feb 20.pdf
-	label: AVS Tech Training Stream Diagram
-	url: pdf/00135 - AVN Tech - Trg Stream Diagram - Rev Jan 20.pdf
-	label: AVN Tech Training Stream Diagram
-	url: pdf/00138 - ACS Tech - Trg Stream Diagram - Rev Jan 20.pdf
-	label: ACS Tech Training Stream Diagram
-	url: pdf/00261 - AWS Tech -Trg Stream Diagram - Rev Jun 20.pdf
-	label: AWS Tech Training Stream Diagram
-	url: pdf/A4 Maint Apprentice Letter.pdf
-	label: A4 Maint Apprentice Letter
-	url: pdf/AJKS OJPR.pdf
-	label: AJKS OJPR
-	url: pdf/FETP Annex B.pdf
-	label: FETP Annex B
+type: downloads
+title: Apprentice/Off Fleet Journeyman Development
+folder: //w12-shw-iv00001/website/en/406sqn/sameo/aso/pdf/development
