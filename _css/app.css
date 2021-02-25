@@ -250,5 +250,6 @@ ul {
 .file-link {
 	width: 150px;
 	text-align: center;
+	word-wrap: break-word;
 	margin: 10px;
 }
