@@ -1,0 +1,96 @@
+{{page content below}}
+{{routes below}}
+
+label: Fire -- 720-3333 or 911
+url: #
+type: 12W-emergency
+
+
+
+label: MP -- 722-4444 or 911
+url: #
+type: 12W-emergency
+
+
+
+label: Emergency Response Plan (ERP)
+url: http://shearwater.mil.ca/en/oss/erp/WingERP.pdf
+type: 12W-emergency
+
+
+
+label: Casualty Administration Manual
+url: http://cmp-cpm.mil.ca/assets/CMP_Intranet/docs/en/support/casualty/casualty-admin-manual.pdf
+type: 12W-emergency
+
+
+
+label: Shearwater Emergency Response Location Grid
+url: http://shearwater.mil.ca/en/footerFiles/20180117-U-3235_1-12WOPS_WATCO-12_Wing_Shearwater_Site_Emrgency_Respons_Location_Grid_(Crash_Grid_Map).pdf
+type: 12W-emergency
+
+
+
+label: 12 Wing Fire Hall -- 720-1544
+url: #
+type: non-emergency
+
+
+
+label: 12W MP Desk 1 -- 902-407-7829
+url: #
+type: non-emergency
+
+
+
+label: 12W MP Desk 2 -- 902-407-7830
+url: #
+type: non-emergency
+
+
+
+label: MP Non-Emergency & After Hours (Dispatch) -- 722-4446
+url: #
+type: non-emergency
+
+
+
+label: 12W MP Liaison Office -- 902-407-7828
+url: #
+type: non-emergency
+
+
+
+label: Anonymous Crime Tips -- 902-722-8477
+url: #
+type: non-emergency
+
+
+
+label: Wing OPS Centre -- 720-1303 / 720-1304
+url: #
+type: other
+
+
+
+label: Wing Duty Officer -- 902-223-1051
+url: #
+type: other
+
+
+
+label: 12W Ident Desk 1 -- 902-407-7826 (Main)
+url: #
+type: other
+
+
+
+label: 12W Ident Desk 2 -- 902-407-7827 (Axiom/Ident)
+url: #
+type: other
+
+
+
+label: 12 Wing Info / Storm Line -- 902-720-1305
+url: #
+type: other
