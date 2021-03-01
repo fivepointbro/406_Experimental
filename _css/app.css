@@ -172,6 +172,73 @@ ul {
         #navbarCollapse a:hover {
             color: var(--secondary-color);
         }
+        
+/* styling our footbar links */
+#footerCollapse {
+    border-top: 3px solid var(--primary-color);
+}
+
+    #footerCollapse * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+    }
+
+    #footerCollapse h5 {
+        color: #f8f9fa;
+    }
+
+    #footerCollapse li {
+        display: inline-block;
+        text-align: center;
+        list-style: outside none none;
+        margin: .3em .8em;
+        padding: 0;
+    }
+
+    #footerCollapse a {
+        padding: .3em .8em;
+        position: relative;
+        text-decoration: none;
+    }
+
+        #footerCollapse a::before,
+        #footerCollapse a::after {
+            content: '';
+            height: 20px;
+            width: 14px;
+            position: absolute;
+            transition: all .35s ease;
+            opacity: 0;
+        }
+
+        #footerCollapse a::before {
+            content: '';
+            right: 0;
+            top: 0;
+            border-top: 3px solid var(--secondary-color);
+            border-right: 3px solid var(--secondary-color);
+            transform: translate(-100%, 50%);
+        }
+
+        #footerCollapse a::after {
+            content: '';
+            left: 0;
+            bottom: 0;
+            border-bottom: 3px solid var(--secondary-color);
+            border-left: 3px solid var(--secondary-color);
+            transform: translate(100%, -50%)
+        }
+
+        #footerCollapse a:hover:before,
+        #footerCollapse a:hover:after {
+            transform: translate(0,0);
+            opacity: 1;
+        }
+
+        #footerCollapse a:hover {
+            color: var(--secondary-color);
+        }
+
 
 .nav-link {
     cursor: pointer;
