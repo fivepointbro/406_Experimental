@@ -32,6 +32,7 @@ export default class NavBar extends HTMLElement {
                     const links = $.grab('#nav-links', self)
                     const sections = $.grab('#section-links', self)
                     const safety = $.grab('#safety-links', self)
+                    const training = $.grab('#training-links', self)
                     self.routes.forEach(route => {
                         const type = route.type
                         const li = $.make('li', 'nav-item')
@@ -39,9 +40,10 @@ export default class NavBar extends HTMLElement {
                         a.setAttribute('id', `link-${route.slug.trim()}`)
                         a.setAttribute('router-link', `${route.path.trim()}`)
                         li.appendChild(a)
-                        if (type == 'main') { links.appendChild(li) }
-                        else if (type == 'section') { sections.appendChild(li) }
+                        if (type == '406') { links.appendChild(li) }
+                        else if (type == 'amo') { sections.appendChild(li) }
                         else if (type == 'safety') { safety.appendChild(li) }
+                        else if (type == 'training') { training.appendChild(li) }
                         
                         $.grab(`#link-${page}`).classList.add('active')
                         self.loaded = true
