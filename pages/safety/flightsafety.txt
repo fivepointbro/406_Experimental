@@ -1,0 +1,108 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: 406 Sqn Flight Safety
+
+
+text: To report an aircraft accident or a safety concern which requires immediate action, call 1-888-WARN-DFS (1-888-927-6337)
+
+
+image: =>
+	url: ./images/CO_flight_safety.jpg
+	classes: d-block mx-auto
+	width: 100%
+	description: CO's flight safety policy
+
+
+subtitle: Documents
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/safety/flight-safety/docs/406 Flight Safety Program CO Darras.docx
+	label: 406 Flight Safety Program
+	url: http://shearwater.mil.ca/en/406sqn/safety/flight-safety/docs/CF 215-E.pdf
+	label: Flight Safety Occurrence Report (215-E)
+
+
+files: =>
+	url: //w12-shw-pv00001/common/406sqn/admin & hq/5.  sqn orderly room (sor)/webpage/recall list/recall list.xlsx
+	label: Test file link (downloads the recall list)
+
+
+subtitle: Quick Links
+
+
+links: =>
+	url: /en/406sqn/safety/flight-safety/docs/NEW 2020 FS Awareness Brief.ppt
+	label: Unit Flight Safety Awareness Brief
+	url: /en/safety/flight-safety/docs/12 Wg Flight Safety Accident Checklist.doc
+	label: Accident Checklist
+	url: /en/oss/erp/WingERP.pdf
+	label: Emergency Response Plan
+	url: http://rcaf.mil.ca/assets/RCAF_Intranet/docs/en/flight-safety/administration/d2484-em.pdf
+	label: Hazard Report
+
+
+subtitle: Contacts
+
+
+links: =>
+	url: /en/safety/flight-safety/docs/PHONE LIST 12 Wing FS.doc
+	label: Wing Flight Safety Contact List
+	url: mailto:W12406UFS@intern.mil.ca
+	label: +12W 406 UFS Section@406 (M) OTS UFS@Shearwater
+
+{{repeated items below}}
+
+type: contact card
+position: 406 (M) OTS UFSO
+rank: Capt
+name: Derek Prescott
+phone: 720-1398 (902) 321-1092
+email: derek.prescott@forces.gc.ca
+
+
+type: contact card
+position: 406 (M) OTS D/UFSO
+rank: Sgt
+name: Kennith Brake
+phone: 720-1757 (902) 789-5337 (902) 237-5497 (BB)
+email: ken.brake@forces.gc.ca
+
+
+type: contact card
+position: 406 (M) OTS FS NCM
+rank: MCpl
+name: Geoffrey Franklin
+phone: 720-1065 (902) 389-6392
+email: Geoffrey.Franklin@forces.gc.ca
+
+
+type: contact card
+position: 406 (M) OTS FS NCM
+rank: MCpl
+name: Tracie Thomas
+phone: 720-2392 (902) 760-1016
+email: tracie.thomas@forces.gc.ca
+
+
+type: contact card
+position: 406 (M) OTS TTF FS Rep
+rank: MCpl
+name: Sarah Getz
+phone: 720-4441 (902) 478-8320
+email: Sarah.Getz@forces.gc.ca
+
+
+type: downloads
+title: Briefings
+folder: //w12-shw-iv00001/website/en/406sqn/safety/flight-safety/briefings
+
+
+type: downloads
+title: Downloads
+folder: //w12-shw-iv00001/website/en/406sqn/safety/flight-safety/docs

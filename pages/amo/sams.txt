@@ -1,0 +1,59 @@
+
+
+----------------------
+{{page content below}}
+
+title: SAMS
+
+
+subtitle: Links:
+
+
+links: =>
+	url: http://winnipeg.mil.ca/cms/en/DComd-FG/A4-Maint/A4_Maint_AMSET/AMStandards/AMStds.aspx
+	label: A4 Maint & P Series
+	url: http://publications.mil.ca/epubs/pubs/pubSearch.jsp
+	label: National Publications Search
+	url: http://dfc-rfd.mil.ca/en
+	label: DND Forms Search
+
+
+subtitle: SAMS Corner:
+
+
+text: How do you record Critical Junctures?
+
+
+subtitle: C-05-005-P03/AM-001 pg 1-16
+
+
+text: "The Maintenance Releaser (Level A) must verify that critical junctures were certified in accordance with the "Critical Juncture" requirements (refer to C-05-005-P05/AM-001)"
+
+
+subtitle: C-05-005-P05/AM-001 pg 2-1 / 2-2
+
+
+text: "In the performance of maintenance, unique situations will continually arise due to changes in operational priorities, task length/complexity, shift hand-over, parts availability, quarantine, etc., and one or more critical junctures shall be verified by a technician(s) who does not certify the maintenance release. The common point in this situation is that the final maintenance release shall have to be certified by a Maintenance Releaser (Level A) who could not personally inspect, verify or supervise the critical juncture(s) of the specific task. Therefore, <strong>all technicians shall ensure that sufficient supporting work entries or local maintenance forms are raised to capture these certifications prior to handing over the task.</strong>"
+"Critical Juncture Responsibility - A Maintenance Releaser (Level A) is authorized to accept the certification signatures of other Maintenance Releasers (Level A) on support work or local maintenance forms as meeting the critical juncture inspection or verification requirements. Responsibility for those junctures of a task rests with the Maintenance Releaser (Level A) who certified the juncture."
+"<strong>Maintenance Releasers (Level A) and Aircraft Weapon System Releasers (Level C) are responsible to ensure critical junctures for a maintenance procedure are recorded on the appropriate maintenance record.</strong> There is no requirement to document critical junctures if the person who will carry out the final maintenance release has witnessed, or performed, all the critical junctures during the maintenance activity. Documentation requirements shall be achieved by the following methods, in accordance with C-05-005-P04/AM-00 (Maintenance Regulation Note 6, Pg 2-67)"
+
+
+{{repeated items below}}
+
+
+type: contact card
+position: SAMS
+rank: MWO
+name: Spencer
+office: SH344 Rm 228
+phone: 720-1255
+email: Spencer%20MWO%20WB@406%20(M)%20OTS%20SAMS@Shearwater
+
+
+type: contact card
+position: D/SAMS
+rank: WO
+name: Day
+office: SH330 Rm 321
+phone: 720-4083
+email: Day%20WO%20PC@406%20(M)%20OTS%20STI@Shearwater

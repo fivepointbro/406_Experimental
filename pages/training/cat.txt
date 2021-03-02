@@ -1,0 +1,87 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+
+title: Common Aircrew Training
+
+
+subtitle: Location
+
+
+text: MHTC, Room 217
+
+
+subtitle: MH Crew Commander (AELY)
+
+
+links: =>
+	url: http://shearwater.mil.ca/406_mots/DCC/spreadsheet.asp#commonaircrew
+	label: OSS / QS / TP / Courseware (Under Construction)
+
+
+subtitle: Flight Instructor Course (FIC) (AIMB)
+
+
+links: =>
+	url: http://shearwater.mil.ca/406_mots/DCC/spreadsheet.asp#commonaircrew
+	label: OSS / QS / TP / Courseware (Under Construction)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/commoncourses/wet-dinghy/Current%20Flight%20Instructor%20Handbook%20-%2002%20Oct%2014.docx
+	label: Flight Instructor's Handbook
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/commoncourses/wet-dinghy/FlightPro%20-%20Instructor%20Brief%20(Draft).ppt
+	label: FlightPro - Instructor Brief
+
+
+subtitle: FlightPro User
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/commoncourses/wet-dinghy/FlightPro%20-%20Tools%20Basic%20User%20CBT.ppt
+	label: FlightPro - Tools Basic User
+
+
+subtitle: Wet Dinghy Training
+
+
+text: The Wet Dinghy Course usually runs one or two Fridays per month. The schedule is easily accessed by clicking <a href="http://shearwater.mil.ca/en/406sqn/trainingflights/commoncourses/wet-dinghy/wetdinghy-current.xls"> here.</a>. To be nominated for the Wet Dinghy course, contact  your unit/squadron Trg Readiness Office who will then email (+12W 406 OPS@406(M)OTS OPS@Shearwater) to request training.
+The location of the Wet Dinghy course is at the F&B TC, in classroom 233. The course starts at 0800 and is followed by a pool/ocean portion at the shearwater gym or FDU jetty at 1000. Bring any kind of footwear that can go in to the water e.g. boots, old running shoes or the Rescue boots for ACSO and AES Op. Egress will follow at 1300 in 406 Sqn.
+Once the course is completed, an email will be sent to the member and the squadron Trg Readiness. Training Readiness personnel are to ensure that Aircrew Files/FlightPro are updated.
+<a href="http://shearwater.mil.ca/en/406sqn/trainingflights/aesop/wet-dinghy-ruet/CH-148/index.asp">Wet Dinghy PowerPoint Presentation&nbsp;</a> CH148  (Use left mouse click to advance slides)
+
+
+subtitle: Emergency Egress Training
+
+
+text: All 406(M) OTS Emergency Egress Training is to booked through <a href="mailto:+12W%20406%20OPS@406%20(M)%20OTS%20OPS@Shearwater">+12W 406 OPS@406(M)OTS OPS@Shearwater</a>.
+
+
+subtitle: Rotary Underwater Egress Training - RUET
+
+
+text: RUET is mandatory for all aircrew flying on over water missions. The qualification is current for 24 months. All nominations are to be submitted through Plans and Tasks Office <a href="mailto:+12W%20406%20OPS@406%20(M)%20OTS%20OPS@Shearwater">+12W 406 OPS@406(M)OTS OPS@Shearwater</a>
+RUET sessions are conducted at a contractor facility and all nominations and course loading are coordinated by 2 Cdn Air Div/AF Training. Members are expected to attend once loaded and only after consultation with the loading agency shall members be authorized to cancel. Training sessions have a minimum attendance requirement and a cancellation of one member could affect the entire training session and/or unnecessary billing to the RCAF.
+RUET is typically scheduled on Fridays, twice per month, see <a href="http://shearwater.mil.ca/en/406sqn/trainingflights/commoncourses/wet-dinghy/Copy%20of%20ADC-EBS_(RUET)_Course_Coordination_rev.xlsx">schedule</a>
+<strong>Specific Loading Instructions</strong>
+A. TRG TO TAKE PLACE AT RelyOn Nutec , 20 ORION COURT, DIRECTLY BEHIND 50 MOUNT HOPE, WOODSIDE PARK, UP THE HILL FROM THE DARTMOUTH GENERAL HOSPITAL, DARTMOUTH NS. FREE VEHICLE PARKING IS AVAIL AT ORION COURT
+B. CRSE INFO - MBRS NOT FAMILIAR WITH EBS/RUET TRG ARE ENCOURAGED TO VISIT THE WEBSITE AT <a href="https://www.relyonnutec.com/en/locations/canada/dartmouth/">www.relyonnutec.com/</a>.
+(1) CLASSES ARE CONDUCTED FROM 0800 TO 1700 HRS. MBRS MUST ARRIVE FOR 0745 HRS ON THE FIRST DAY ONLY, NO EARLIER;
+(2) DRESS FOR THE CRSE IS CIVILIAN CASUAL. TRAINEES NEED TO BRING SHORTS AND T-SHIRTS; and
+(3) AIRCREW TO BRING FLYING GLOVES.
+
+
+
+subtitle: Contact
+
+
+{{repeated items below}}
+
+
+type: contact card
+position: OTFC
+rank: Maj
+name: Wall
+phone: 902-720-1396
+email: Brian.Wall2@forces.gc.ca

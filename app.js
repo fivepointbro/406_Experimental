@@ -2,14 +2,12 @@
 //********** [Helper] This contains a collection of 'helper' methods/functions that the app will use
 import Helper from './_js/helpers.js';
 //********** [Views] These are our special components that can be reused on multiple pages
-import StaffCard from './webcomponents/card/card.js';
-import ContactCard from './webcomponents/contactcard/contactcard.js';
-import Accordion from './webcomponents/accordion/accordion.js';
-import Downloads from './webcomponents/downloads/downloads.js';
+import StaffCard from './_webcomponents/card/card.js';
+import ContactCard from './_webcomponents/contactcard/contactcard.js';
+import Accordion from './_webcomponents/accordion/accordion.js';
+import Downloads from './_webcomponents/downloads/downloads.js';
 //********** [Views] These are our page templates
-import Mainview from './views/main.js';
-import Sectionview from './views/sections/section.js';
-import Safetyview from './views/safety/safety.js';
+import Mainview from './_views/main.js';
 
 // Was the user in dark mode before?
 if (localStorage.viewMode) { document.querySelector('html').setAttribute('color-mode', localStorage.viewMode) };
@@ -34,10 +32,10 @@ class Router {
             const b = []
             reply.forEach(item => {
                 const a = {}
-                const c = $.make(item.type + '-view')
+                const c = $.make('main-view')
                 a.slug = item.slug
-                c.slug = a.slug
-                c.data = a.slug + '.txt'
+                c.slug = item.slug
+                c.data = item.type + '/' + item.slug + '.txt'
                 c.build()
                 a.view = c
                 b.push(a)

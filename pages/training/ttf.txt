@@ -1,0 +1,72 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+
+title: Technical Training Flight (TTF)
+
+
+text: Manned by experienced and skilled Technicians from all over 12 Wing, the Technical Training Section is responsible for the training and development of all technical students at 406 squadron.
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Rooms 308
+
+
+subtitle: Contacts
+
+
+{{repeated items below}}
+
+
+type: contact card
+position: TTF Commander
+rank: Lt
+name: Wolski
+phone: 902-720-1373
+email: Rudy.Wolski@forces.gc.ca
+
+
+type: contact card
+position: Senior Technical Instructor
+rank: MWO
+name: Savage
+phone: 902-720-2524
+email: Scott.Savage2@forces.gc.ca
+
+
+type: contact card
+position: D/SAMS
+rank: WO
+name: Day
+phone: 902-720-4209
+email: Paul.Day@forces.gc.ca
+
+
+type: contact card
+position: CH148 Flight Lead Warrant Officer
+rank: WO
+name: Fortin
+phone: 902-720-1411
+email: Stephane.Fortin4@forces.gc.ca
+
+
+type: contact card
+position: CH148 Course Director
+rank: Sgt
+name: Bursey
+phone: 902-720-4079
+email: David.Bursey@forces.gc.ca
+
+
+type: contact card
+position: CH148 Course Director
+rank: Sgt
+name: Robinson
+phone: 902-720-4203
+email: Wes.Robinson@forces.gc.ca

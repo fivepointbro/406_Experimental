@@ -1,0 +1,119 @@
+﻿Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+
+title: Meet the Command Staff
+
+
+{{repeated items below}}
+
+type: staff card
+position: Commanding Officer
+rank: LCol
+name: Darras
+image: ./images/CO.jpg
+bio: A short bio could go here
+longbio: Lieutenant-Colonel Lauri Darras enrolled in the Canadian Armed Forces in 1995 in her hometown of Sudbury, Ontario. After earning her pilot’s wings in 1998, she was posted to 443 Maritime Helicopter Squadron in Victoria, British Columbia where she sailed in Her Majesty’s Canadian Ships CALGARY, VANCOUVER and OTTAWA, including deployments on Op AUGMENTATION and Op APOLLO in the Arabian Gulf.
+In 2004, Lieutenant-Colonel Darras was posted to 3 Canadian Forces Flying Training School in Portage-la-Prairie, Manitoba, as a helicopter flying instructor. In 2007, she was selected to serve as Aide-de-Camp to Her Excellency, the Right Honourable Michaëlle Jean, Governor General of Canada, then in several staff positions including J3 Plans and Deputy J1 at Canada Command in Ottawa, Deputy Officer in Charge of the Air Component Coordination Element (West) in Edmonton, Alberta, and G5 Aviation at the Canadian Manoeuvre and Training Centre in Wainwright, Alberta.
+In 2014, Lieutenant-Colonel  Darras returned 12 Wing and to the Sea King where she served as the Helicopter Air Detachment Commander and Air Task Force Commander on Her Majesty’s Canadian Ship ATHABASKAN. She also served as 423 Sqn’s Operations Officer and as the Deputy Commanding Officer of 12 Air Maintenance Squadron. In 2017, she took command of 444 Combat Support Sqn in Goose Bay, Labrador where she flew the Griffon helicopter, and in 2018, undertook the Joint Command and Staff Programme at the Canadian Forces College in Toronto.
+Lieutenant-Colonel Darras holds a Bachelor’s Degree in Science from the University of Manitoba and a Master’s in Defence Studies from the Canadian Forces College. Her spouse, Lieutenant-Colonel Loic Darras, serves as Deputy Commander of the Combat Training Centre in Gagetown, New Brunswick. Together they have three children Luke, Jack and Nina.
+<hr>
+Lieutenant-Colonel Lauri Darras s’enrôle en 1995 dans les Forces Armée Canadienne à partir de sa ville natale; Sudbury, Ontario. Après l’obtention de ses ailes de pilote en 1998, elle rejoint le 443e escadron d’hélicoptère maritime à Victoria, Colombie Britannique. Elle y navigue à bord des Navires de sa Majesté CALGARY, VANCOUVER et OTTAWA et est déployé lors des Op AUGMENTATION et Op APOLLO dans le golfe Persique.
+En 2004, Lieutenant-Colonel Darras rejoint la 3e École de pilotage des Forces Canadiennes à Portage-la-Prairie, Manitoba, en tant qu’instructeure de vol sur hélicoptère. En 2007, elle est choisie pour servir comme Aide-de-Camp pour son Excellence, l’honorable Michaëlle Jean, gouverneur générale du Canada. Elle occupe ensuite plusieurs positions d’état-major incluant J3 Plans et Deputy J1 au Commandement Canada à Ottawa, Officier responsable adjointe de la coordination de la composante aérienne (Ouest) à Edmonton, Alberta, et G5 Aviation au Centre canadien d’entraînement aux manœuvres à Wainwright, Alberta.
+En 2014, Lieutenant-Colonel Darras retourne au 12e Escadron et au Sea King où elle sert en tant que Commandante du détachement aérien des hélicoptères et Commandante de la force opérationnelle sur le navire de sa Majesté ATHABASKAN. Elle sert aussi comme Officier des opérations du 423e escadron et comme Commandante adjointe du 12e Escadron de maintenance. En 2017, elle occupe le commandement du 444e escadron de soutien au combat à Goose Bay, Labrador où elle vole à bord de l’hélicoptère Griphon. En 2018, elle participe au Programme de commandement et d’état-major interarmées au Collège des Forces canadiennes à Toronto.
+Lieutenant-Colonel Darras détient un baccalauréat en Science de l’Université du Manitoba et une maîtrise en Étude de la défense du Collège des Forces canadiennes. Son époux, Lieutenant-Colonel Loic Darras, est commandant adjoint du Centre d’instruction au combat à Gagetown, New Brunswick. Ils ont trois enfants; Luke, Jack and Nina.
+
+
+type: staff card
+position: Deputy Commanding Officer
+rank: Maj
+name: Rand
+image: ./images/DCO.jpg
+bio: A short bio could go here
+longbio: Maj Rand joined the Primary Reserves in 1984 as an Artilleryman in Lethbridge, Alberta. Over the course of 15 years, he served with 20th Independent Field Battery, and 20th Field Regiment, Royal Canadian Artillery, as well as callouts with 1st and 3rd Regiments, Royal Canadian Horse Artillery, and deployed on Operation SNOWGOOSE. During this period Maj Rand graduated with a Bachelor of Science in Civil Engineering from University of Alberta and worked in Edmonton as a Professional Engineer.
+In 1998, Maj Rand joined the Regular Force as an Air Navigator and has served at 423 (Maritime Helicopter) Squadron, Helicopter Operational Test and Evaluation Flight, Strategic Joint Staff, Supreme Headquarters Allied Powers Europe, and 12 Operations Support Squadron. He has deployed on Operations APOLLO and ARTEMIS and sailed in Her Majesty's Canadian Ships MONTREAL, TORONTO, and VILLE DE QUEBEC. Maj Rand is currently posted to 406 Maritime Operational Training Squadron where he is employed as the Deputy Commanding Officer.
+Maj Rand is a graduate of the Aerospace Systems Course, and the Joint Command and Staff Programme. He holds a Master of Science in Forest Engineering (University of New Brunswick), and a Post-graduate Diploma in Geographical Information Systems with Distinction (University of Salford). When not at work, he enjoys bicycling, birding, reading and playing guitar in Halifax where he lives with his wife Maria.
+
+
+type: staff card
+position: Honorary Colonel
+rank: VAdm
+name: Miller
+image: ./images/HonCol.jpg
+bio: A short bio could go here
+longbio: VAdm Miller is delighted to be an RCAF Honorary Colonel and has a great love for the air community and especially Naval Air. He joined the RCN in 1965 while attending Bishop’s University in Lennoxville PQ graduating in 1968. He was accepted on a Pilot Training Course in 1969 but was convinced to forego the course and become an ASW Air Controller aboard his first ship HMCS MARGAREE instead. He loved it and has been able to fly in almost all of Canada’s Naval related aircraft from Horse to Sea King to Aurora (member of VPI). He became the highest NATO Grade A Controller in 1970 and maintained that qualification even as Executive Officer through to 1983. His father was briefly in the Royal Air Force and his father in law flew Spitfires for the RCAF in WW2. His daughter was an Air Cadet so this love for the air is definitely in the family!
+VAdm Miller served 38 years in the Navy. His career highlights include - Captain of two ships, First Canadian Destroyer Squadron, Commander Canadian Forces Warfare Centre( where he commanded a dozen tactical exercises with large Air Forces 1987-1990,)Commander Canadian Naval Task Group Persian Gulf War 1990, Commander Allied Logistic Force 1990, Director Naval Requirements, Privy Council Office 1992-1995, Commander Canadian Forces Liaison Staff London UK, Commander Maritime Forces Atlantic 1997-2000, and NATO’s A/Deputy Supreme Allied Commander Atlantic and Chief of Staff 2000-2003. He was the NATO HQ commander for the NATO AWACS Aircraft surveillance of North America following 9/11.
+After retiring in 2003 VAdm Miller acted as Joint Force Commander for the Pearson Peacekeeping Centre’s major training exercises for NATO, European Union and German Netherland Corps personnel prior to their deployments to Afghanistan. Recently he served on the 50th Anniversary Sea King Commemoration Committee, Chair of the Premiers NS Medal of Bravery Advisory Committee2012-2015, LT Governors Arts Advisory Committee, Chair of Commissionaires Nova Scotia 2014-present, Commissionaires Eastern Council and Commissionaires Canada Advisory Board. Board of Director for Pier 21 -1999-2010, Chair Canadian Naval Memorial Trust 2004-2009. Director Walter Callow Transport for Veterans and a member of a number of groups actively supporting Veterans.p>  VAdm Miller is in a number of musical groups-Phoenix Community Choir, NS Men’s Choir Nova Voce, Stadacona Band soloist at Battle of Atlantic and Rataplan Players who raise funds for theatres.
+He and his wife Ann are extremely proud of the air force community and are delighted to promote their amazing work and contribution to Canada’s security.
+<hr>
+Le Vam Miller a passé 38 ans au sein de la Marine. Voici quelques faits saillants de sa carrière - capitaine de deux navires, 1re Escadre de destroyers du Canada, commandant du Centre de guerre des Forces canadiennes (où il dirige une douzaine d’exercices tactiques avec d’importantes forces aériennes de 1987 à 1990), commandant du groupe opérationnel naval du Canada dans le cadre de la guerre du golfe Persique en 1990, commandant de la force logistique des Alliés en 1990, directeur – Besoins de la Marine au Bureau du Conseil privé de 1992 à 1995, commandant de l’état-major de liaison des Forces canadiennes à Londres, au Royaume-Uni, commandant des Forces maritimes de l’Atlantique de 1997 à 2000 ainsi que commandant adjoint p. i. suprême allié de l’Atlantique de l’OTAN et chef d’état‑major de 2000 à 2003. Il a également rempli les fonctions de commandant du QG de l’OTAN responsable de la surveillance de l’Amérique du Nord au moyen d’aéronefs AWACS à la suite des attentats du 11 septembre.
+Après son départ à la retraite en 2003, le Vam Miller a occupé le poste de commandant de la force interarmées dans le cadre d’importants exercices du Centre Pearson pour le maintien de la paix préalables au déploiement en Afghanistan à l’intention du personnel de l’OTAN, de l’Union européenne et du corps germano-néerlandais. Récemment, il a fait partie du comité de commémoration du 50e anniversaire du Sea King, du comité consultatif sur les Bourses des arts du lieutenant-gouverneur, du conseil des commissionnaires de l’Est, du conseil consultatif des commissionnaires du Canada et du conseil d’administration du Quai 21 (de 1999 à 2010). De plus, il a été président du comité consultatif sur la Médaille de la bravoure de la Nouvelle-Écosse (de 2012 à 2015), président des commissionnaires de la Nouvelle-Écosse (depuis 2014), président du Fonds de commémoration de la Marine canadienne (de 2004 à 2009) et directeur des services aux anciens combattants de l’entreprise Walter Callow Transport. Il fait partie de plusieurs groupes qui appuient activement les anciens combattants.
+En outre, le Vam Miller fait partie d’un certain nombre de groupes de musique : la chorale communautaire de Phoenix, la chorale masculine Nova Voce de Nouvelle-Écosse et la Musique Stadacona. Il a également été soliste à l’occasion du concert commémoratif de la bataille de l’Atlantique et a fait partie du groupe Rataplan Players qui amasse des fonds pour les théâtres.
+Le Vam Miller et son épouse Ann sont extrêmement fiers des membres de la communauté de la force aérienne et son heureux de faire la promotion de leur travail exceptionnel et de leur contribution à la sécurité du Canada.
+
+
+type: staff card
+position: Squadron Chief
+rank: CWO
+name: Paquette
+image: ./images/CWO.jpg
+bio: A short bio could go here
+longbio: CWO Paquette was born and raised in Ottawa, Ontario. In 1989 he enrolled in the Canadian Armed Forces as a Naval Acoustics Operator with the Royal Canadian Navy. Once he completed his QL 3 trades training at the Canadian Forces Fleet School Pacific he was posted to his first ship HMCS Qu'Appelle. Once he completed his QL 4 he was posted to HMCS Kootenay and on completion of his QL 5 he was posted to the Commissioning Crew of HMCS Winnipeg. In 1995 CWO Paquette was posted to his last ship HMCS Algonquin. Also in 1995 CWO Paquette decided to release from the military to pursue other interests. This didn't last long. In 1996, CWO Paquette re-enrolled in the military as a Vehicle Technician in the Canadian Army. On completion of his QL 3 at the Canadian Forces School of Electrical Mechanical Engineering in CFB Borden he was posted to 2 Service Battalion at CFB Petawawa. On completion of his QL 5 he was posted to the 33rddBattalion of the Royal Canadian Regiment. In 2005, CWO Paquette re-mustered to the Airborne Electronic Sensor Operator trade. Upon completion of his Basic AESOP course he was posted to 405 Long Range Patrol Squadron at 14 Wing in Greenwood, Nova Scotia. CWO Paquette served with the Maritime Proving and Evaluation Unit, 415 Sqn, and the Long Range Patrol Standard and Evaluation Team during his 11 years in Greenwood. In 2017 CWO Paquette was appointed as the first ever School Warrant Officer at the 33rd Canadian Forces Flying Training School in Southport, Manitoba. In 2020, CWO Paquette was promoted to his current rank and appointed as the 406 Sqn CWO in Shearwater, Nova Scotia..
+CWO Paquette's deployments include OP Apollo in Bosnia and Herzegovina, OP Athena in Afghanistan and OP Mobile for the Libya conflict.
+CWO Paquette is married to Tracy Paquette and they have a combined family of seven children.
+
+
+type: staff card
+position: Operations Officer
+rank: Maj
+name: Brooker
+image: ./images/OPSO.jpg
+bio: A short bio could go here
+longbio: Major Carly Brooker joined the RCAF in 2005 in the Regular Officer Training Program and earned her Bachelor of Science, with a Masters in Neuroscience, from Dalhousie University. She underwent pilot training and earned her wings in September 2011. 
+Maj Brooker spent her first seven years of operational flying at 443 (MH) Squadron, in Patricia Bay, BC, where she flew the CH124 Sea King and deployed on HMC Ships OTTAWA, PROTECTEUR, WINNIPEG and ST. JOHN'S, conducting operations on Op JIATF, Op REASSURANCE and Op SEA GUARDIAN. She had the opportunity to work within the NATO staff aboard USS Mount Whitney in 2018 for Exercise Trident Juncture as the duty air watch officer. In addition to flying, she has served as the Unit Flight Safety Officer for three of those years.
+In 2019 Maj Brooker was posted "home" to 12 Wing Shearwater where she worked as the Wing Commander's EA for short of one year before being promoted to her current rank and moving into her position as Ops O of 406 (M) OTS.
+
+
+type: staff card
+position: Operational Training Flight Commander
+rank: Maj
+name: Wall
+image: ./images/OTFC.jpg
+bio: A short bio could go here
+longbio: Maj Brian Wall was born in Sydney, Nova Scotia. He enrolled in the Canadian Armed Forces in 1992 as member of HMCS Scotia, where he was employed in various Class A and Class B roles until accepted for a component transfer to his current trade, Airborne Combat Systems Operator (ACSO) in 1998. After completing Second Language Training and his Basic Air Navigation Course (BANC) at 17 Wing Winnipeg, he was posted to 423 (MH) Sqn in Shearwater, Nova Scotia. 
+During the course of a 5 year operational tour, he sailed on various HMC Ships including St. John’s, Iroquois and Athabaskan and participated in OPERATION APOLLO from May-Nov 2002. During his last year on Sqn, he was employed as the Sqn’s ACSO Readiness Officer. In 2006 he was posted to 406 (M) Operational Training Squadron as an ACSO Instructor and over the course of three years was employed as the ACSO Training Officer, ACSO Senior Instructor and the ACSO Flight Commander. 
+In May 2009, he was selected for an OUTCAN posting to the Canadian Contingent – NATO Airborne Early Warning Force, stationed in Geilenkirchen, Germany. Once qualified on the AWACS, he was attached to Flying Squadron 2, where he deployed in support of OPERATIONS AFGHAN ASSIST and UNIFIED PROTECTOR. In Jul 2011 he was transfer to the Aircrew Training Squadron where we was responsible for the instruction of new Navigators joining the AWACS Component and was eventually selected as a Navigator Airborne Evaluator. In Dec 2011 he was promoted to his current rank. 
+In July 2013, Maj Wall returned to 12 Wing Shearwater and was posted back to 406 (M) OTS where he served as the Training Support Flight Commander and was re-qualified on the mighty CH124 Sea King. In Jun 2014 he assumed the role of Deputy Commanding Officer at 406 (M) OTS. After three years at 406 (M) OTS, Maj Wall was posted to 12 Operations Support Squadron in July 2016, where he filled the roll of 12 Wing Current Operations and Plans Officer. After completing almost three years at 12 OSS, in 2019 he has returned to 406 (M) OTS once again to fill the role of DCO and completed CH 148 Utility Crewmember Training. In Aug 2020 he relinquished the DCO chair and has relocated downstairs to assume the role as Operation Training Flight Comd. Maj Wall is married to Nicole and resides in Fall River, Nova Scotia.
+
+
+type: staff card
+position: Technical Training Flight Commander
+rank: Lt
+name: Wolski
+image: ./images/TTFC.jpg
+bio: A short bio could go here
+longbio: Lt Wolski joined the RCAF as an AERE in 2014, and was accepted into the Royal Military College of Canada, for a degree in Aerospace Engineering. During his time as a student AERE, he spent time at 409 Sqn, 10FTTS, AETE, and finally (after requesting to change fleets from fighters to MH) 12AMS. After completion of his time at RMC, he was granted his Commission, and following this attended AOBC in Borden. After achieving OFP, he spent his first posting at 423 (MH) Sqn as ASO then ESO. Starting his second year in Shearwater during the summer of 2020, he is now TTFC of 406 (M) OTS. His wife Kate is also an RMC graduate, and is a Marine Systems Engineering Officer at CFB Halifax. 
+
+
+type: staff card
+position: Aircrew Standards
+rank: Maj
+name: Law
+image: ./images/ACRSTD.jpg
+bio: A short bio could go here
+longbio: Maj. Craig Law was born in Port-aux-Basque Newfoundland. He grew up locally in Cole Harbour Nova Scotia before attending the Northern Alberta Institute of Technology where he completed a diploma in commercial aviation. Upon completion of his commercial licenses he returned to Nova Scotia and attended St. Mary's University completing a BA in Human Factors. Maj. Law joined the RCAF in 2005 and undertook Phase 2 & 3 pilot training at 3 CFFTS flying the Grob 120 and the CH 139 prior to earning his wings in 2009. In 2009 he was posted to 423(MH) sqn where he went on to become an MHCC and MTP sailing on HMCS Toronto, St John's, Iroquois, Charlottetown, Preserver, and Athabaskan. Maj Law contributed to numerous deployments including, Op Carribe, Joint Warrior, SNMG1 and Op Artemis.  
+In 2014, Maj Law moved to 406(M)OTS as a pilot instructor teaching future maritime warriors up to and including the final Sea King course. He was chosen for conversion to the CH148 Cyclone during Initial Cadre Training and after completion remained at 406 as the Pilot Training Section Commander contributing to the continuation of conversion training. Maj Law went on to become the Operations Officer for a year prior to taking his current position as CH148 Fleet Standards Officer. Maj Law is married to his wife Cheryl and they have 3 children, Jaxon, Brooklyn, and Ava.
+
+
+type: staff card
+position: Admin Officer
+rank: Capt
+name: Constantine
+image: ./images/ADMINO.jpg
+bio: A short bio could go here
+longbio: Captain Constantine enrolled with the Cadet Instructor Cadre as an Officer Cadet in February of 1995.  After the completion of her B.Sc from Mount Allison University and B.Comm from Saint Mary's University, she was employed as a Staff Officer with the Regional Cadet Support Unit (Atlantic) in the Transport Cell.She went on to hold other positions at the RCSU(A) and the co-located Nova Scotia Cadet Detachment including Support Services Officer, Area Cadet Officer (Air) and Staff Officer Air Cadet Training.
+In 2011, Captain Constantine was transferred to the Nova Scotia Cadet Detachment where she assumed the position of Training Support Officer and Deputy Detachment Commander.In October of 2016, while the Financial Services Officer for the Atlantic Region, Captain Constantine changed the course of her career and component transferred to the Regular Force as a Logistics Officer.  After completing her trade trades training in November of 2017, she became a "Lynx" when she was posted to 406 (Maritime) Operational Training Squadron as the Administration Officer.

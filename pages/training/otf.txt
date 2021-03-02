@@ -1,0 +1,78 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page anyway, so don't worry about it
+Only things below the "page content below" tag will show up on the site
+
+----------------------
+{{page content below}}
+
+
+title: Operational Training Flight (OTF)
+
+
+text: Staffed by experienced and skilled members from all over 12 Wing, OTF is responsible for the training and development of all new CH148 Aircrew at 406 squadron and the fleet.
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Room 220
+
+
+subtitle: QS Links
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/otf/AJPG%20-%20QS%20-%20CH148%20Co-Pilot%20-%20Pilot.pdf
+	label: CH 148 Pilot/CoPilot QS
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/otf/AJPE%20-%20QS%20-%20%20CH148%20TACCO%20-%20ACSO.pdf
+	label: CH 148 TACCO QS
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/otf/AJPF%20-%20QS%20-%20%20CH148%20Sensor%20Operator%20-%20AES%20Op.pdf
+	label: CH 148 SENSO QS
+
+
+subtitle: Org Chart
+
+
+image: =>
+	url: ./images/otf.jpg
+	classes: d-block
+	width: 100%
+	description: 406 OTF Org Chart
+
+
+subtitle: Command
+
+
+{{repeated items below}}
+
+
+type: contact card
+position: OTFC
+rank: Maj
+name: Wall
+phone: 902-720-1396
+email: Brian.Wall2@forces.gc.ca
+
+
+type: contact card
+position: TTSC
+rank: Capt
+name: Hardiman
+phone: 902-720-4444
+email: Bradley.Hardiman@forces.gc.ca
+
+
+type: contact card
+position: PTSC
+rank: Capt
+name: Cole
+phone: 902-720-4240
+email: CHRISTOPHER.COLE@forces.gc.ca
+
+
+type: contact card
+position: ATSC
+rank: WO
+name: Royer
+phone: 902-720-4437
+email: Richard.Royer@forces.gc.ca
