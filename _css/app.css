@@ -243,6 +243,13 @@ ul {
 .nav-link {
     cursor: pointer;
 }
+
+.dwan-search {
+	position: fixed;
+	top: 10px;
+	left: 80px;
+}
+
 .mil-links {
 	display: flex;
 	padding: 0px 15px;
@@ -265,7 +272,7 @@ ul {
     width: 75%;
     margin: 200px auto;
     opacity: var(--view-opacity);
-    border-radius: 0.6rem;
+    border-radius: 0.2rem;
     perspective: 900px;
 }
 
