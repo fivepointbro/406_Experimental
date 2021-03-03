@@ -1,0 +1,132 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: Operations
+
+
+text: Operations Office is responsible for management and coordination of course scheduling, simulators/training devices/classroom facilities, training documentation, and readiness training for staff. The 406 Operations Officer (OpsO) is also responsible for the co-ordination and planning, in conjunction with Wing Operations staff, of short and long-term Squadron operations.
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/operations/docs/Projected%20Training%20Schedule.xlsx.xlsm
+	label: Project Training Schedule
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/operations/docs/Scheduling%20Requirements_Requests%20Template.docx
+	label: Scheduling Requirements Request Template
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Room 324
+
+
+subtitle: Contacts
+
+{{repeated items below}}
+
+type: contact card
+position: OpsO
+rank: Maj
+name: Tomlik
+phone: 902-720-4090
+email: Peter.Tomlik@forces.gc.ca
+
+
+type: contact card
+position: D/OpsO
+rank: Capt
+name: LaBrash
+phone: 902-720-1387
+email: Jeffrey.Labrash2@forces.gc.ca
+
+
+type: contact card
+position: FDCO
+rank: Lt(USN)
+name: Faber
+phone: 902-720-1876
+email: Sarah.Faber@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Scheduler
+rank: Capt
+name: Boots
+phone: 902-720-1388
+email: Ryan.BOOTS@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Scheduler
+rank: Capt
+name: Franklin
+phone: 902-720-2710
+email: Brandon.Franklin@forces.gc.ca
+
+
+type: contact card
+position: 406 FDC
+rank: Dispatch
+name: Desk
+phone: 902-720-2091
+email: N/A
+
+
+type: contact card
+position: Ground Training Coordinator
+rank: Sgt
+name: Wheaton
+phone: 902-720-1658
+email: Christopher.Wheaton@forces.gc.ca
+
+
+type: contact card
+position: Contractor Scheduling Lead
+rank: Darrel
+name: MacDonald
+phone: 902-720-4088
+email: Darrell.MacDonald@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Scheduler
+rank: Jackie
+name: Fougere
+phone: 902-720-1853
+email: Jackie.Fougere@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Scheduler
+rank: Amanda
+name: Harris
+phone: 902-720-4084
+email: Amanda.Harris@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Scheduler
+rank: Steve
+name: Cololough
+phone: 902-720-4072
+email: N/A
+
+
+type: contact card
+position: Tech Scheduler
+rank: William
+name: McHarg
+phone: 902-720-1036
+email: Bill.McHarg@forces.gc.ca
+
+
+type: contact card
+position: Training Admin
+rank: Steve
+name: Coyle
+phone: 902-720-1161
+email: Steven.Coyle2@forces.gc.ca

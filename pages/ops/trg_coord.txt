@@ -1,0 +1,30 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: Training Coordinator
+
+
+text: Responsible for the management and coordination of 406's course reports and certificates. As well provides a point for contact for scheduling Squadron members for local courses held at facilities around 12 Wing as well as Formation Halifax.
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Rooms 308
+
+
+subtitle: Contacts
+
+{{repeated items below}}
+
+
+type: contact card
+position: Training Coordinator
+rank: Sgt
+name: Wheaton
+phone: 902-720-1658
+email: Christopher.Wheaton@forces.gc.ca

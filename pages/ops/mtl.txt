@@ -1,0 +1,65 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: Master Technical Library
+
+
+text: The MTL is responsible for the control, issue and amendment of all externally produced and issued technical documentation. A master list of these publications shall be available in the Library database.
+The MTL is responsible for the control, issue and amendment of all internal technical information within 406 (M) OTS, except for local orders which fall within the responsibility of Section Heads (SH).
+The MTL shall maintain a Master List of all publications held in all libraries, which contains all pertinent information on the currency of each publication, and ensure these documents are available at all locations where operations essential to the effective functioning of the quality system is performed.
+
+
+subtitle: External Technical Publications / Hard Copy Issued
+
+
+text: Externally produced documentation includes CFTOs, user manuals, other departmental and contractor publications, issued to and/or purchased by 406 (M) OTS. The MTL shall establish and maintain positive control procedures to ensure that all publications held within 406 Sqn technical libraries are the current approved version. All externally issued technical publications held within 406 Sqn shall be processed through the Master Tech Library. The MTL shall maintain a list of all sub-librarians responsible for each sub-library and shall be the controlling point for the issue all publications, amendments and revisions to each sub-librarian. Sub-librarians shall amend all documents held by their sections, upon receipt of the amendment from the MTL.
+
+
+subtitle: External Technical Publications / Electronic Distribution Only
+
+
+text: All sections relying on electronically distributed technical publications shall identify the publications used, and their electronic source, to the MTL. Personnel using electronically distributed publications shall ensure that only the authorized source of the publication is used.
+
+
+subtitle: Aircrew Publications
+
+
+text: The MTL will provice and issue aircrew publications for staff and students while at 406 Sqn
+The publications include
+
+
+list: =>
+	item: Aircraft Operating Instructions (AOI)
+	item: Standard Manoeuvre Guide (SMG)
+	item: Pilots Check-List
+	item: TACCO/AES Op/SENSO Check-list
+
+
+links: =>
+	url: http://winnipeg.mil.ca/cms/en/DComd-FG/A4-Maint/A4_Maint_AMSET/AMStandards/AMStds.aspx
+	label: P. Series On A4 Maint Web Site
+	url: http://shearwater.mil.ca/en/12ams/dco/qso/af9000/ch148/index.asp
+	label: FWI's (Fleet Work Instructions)
+
+
+subtitle: Location
+
+
+text: SH 330 (MHTC), Rm 325
+
+
+subtitle: Contacts
+
+{{repeated items below}}
+
+
+type: contact card
+position: MTL
+rank: Vacant
+name: Desk
+phone: 902-720-1825
+email: N/A

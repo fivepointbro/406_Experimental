@@ -1,0 +1,30 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: Graphic Design Center
+
+
+text: Responsible for graphic designs for 406 Squadron. Can process print requests (Cyclone, Sea King training photos, Student study guides, schematics, Training Plans or handbooks). Also has a graphic arts capability and can design posters, training aids, and learning aids with the use of a large scale printer and laminator. The above services are requested using the <a href="docs/graphic-design-request-form.docx">DCC Request Form</a>.
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Rooms 325
+
+
+subtitle: Contacts
+
+{{repeated items below}}
+
+
+type: contact card
+position: Graphic Designer
+rank: Steve
+name: Coyle
+phone: 902-720-1161
+email: Steven.Coyle2@forces.gc.ca

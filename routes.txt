@@ -4,55 +4,49 @@
 name: Home
 slug: home
 path: ./
-type: main
-
+type: 406
 
 
 name: Command Staff
 slug: staff
 path: ./staff
-type: main
-
+type: 406
 
 
 name: Sentinel
 slug: sentinel
 path: ./sentinel
-type: main
-
+type: 406
 
 
 name: Admin
 slug: admin
 path: ./admin
-type: main
-
+type: 406
 
 
 name: SAMEO
 slug: sameo
 path: ./sameo
-type: section
-
+type: amo
 
 
 name: SAMS
 slug: sams
 path: ./sams
-type: section
-
+type: amo
 
 
 name: ASO
 slug: aso
 path: ./aso
-type: section
+type: amo
 
 
 name: QSO
 slug: qso
 path: ./qso
-type: section
+type: amo
 
 
 name: General Safety
@@ -61,8 +55,49 @@ path: ./generalsafety
 type: safety
 
 
-
 name: Flight Safety
 slug: flightsafety
 path: ./flightsafety
 type: safety
+
+
+name: Operational Training Flight
+slug: otf
+path: ./otf
+type: training
+
+
+name: Technical Training Flight
+slug: ttf
+path: ./ttf
+type: training
+
+
+name: Common Aircrew Training
+slug: cat
+path: ./cat
+type: training
+
+
+name: Operations
+slug: ops
+path: ./ops
+type: ops
+
+
+name: Graphic Design Center
+slug: graphic
+path: ./graphic
+type: ops
+
+
+name: Training Coordinator
+slug: trg_coord
+path: ./trg_coord
+type: ops
+
+
+name: Master Technical Library
+slug: mtl
+path: ./mtl
+type: ops

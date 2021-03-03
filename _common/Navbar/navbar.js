@@ -33,6 +33,7 @@ export default class NavBar extends HTMLElement {
                     const sections = $.grab('#section-links', self)
                     const safety = $.grab('#safety-links', self)
                     const training = $.grab('#training-links', self)
+		    const ops = $.grab('#ops-links', self)
                     self.routes.forEach(route => {
                         const type = route.type
                         const li = $.make('li', 'nav-item')
@@ -44,6 +45,7 @@ export default class NavBar extends HTMLElement {
                         else if (type == 'amo') { sections.appendChild(li) }
                         else if (type == 'safety') { safety.appendChild(li) }
                         else if (type == 'training') { training.appendChild(li) }
+			else if (type == 'ops') { ops.appendChild(li) }
                         
                         $.grab(`#link-${page}`).classList.add('active')
                         self.loaded = true
