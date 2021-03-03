@@ -1,0 +1,196 @@
+
+
+----------------------
+{{page content below}}
+
+title: Instructor Information
+
+
+subtitle: Welcome to 406 Squadron
+
+
+text: Congratulations on being selected to be an instructor. It is one of the most important jobs you will have in the CAF, and possibly the most rewarding. Being an instructor is more than simply tossing material out to the students. The resources/links below are provided for you to reference as you develop your instructional skills/abilities and go about your daily job as a quality instructor. The foundation to this is your Instructional Techniques - Basic - National Qualification (NQual) AHCH/Flight Instructor - NQual AIMB. The Canadian Forces Training Development Centre (CFTDC) has an Instructor Development Program which includes a number of courses available in Borden and/or distributed across the CAF to further develop your skills/abilities. Reach out to your Sqn Training Development Officer to discuss these opportunities. Also, take the time to review the Learning Aid articles under the Student Information tab as these can also support you as an instructor if you find one of your students facing a unique challenge which may be having an impact on their learning.
+	
+
+{{repeated items below}}
+
+
+type: links
+category: Teaching Aids
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/20200323-U-1000_1-SO_ACGP-FLIGHT_INSTRUCTOR_HANDBOOK.docx
+	label: Flight Instructor Handbook
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/01_Guidebook%20for%20New%20CAF%20Instructors-406_18%20Dec%2019.pdf
+	label: Guidebook for New CAF Instructors
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/02_Role%20and%20Responsibilities-406_18%20Dec%2019.docx
+	label: Roles and Responsibilities
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/03_Establishing%20the%20Appropriate%20Learning%20Environment-406_18%20Dec%2019.docx
+	label: Establishing the Appropriate Learning Environment
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/04_Instructor%20Characteristics-406_18%20Dec%2019.docx
+	label: Instructor Characteristics
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/05_Leadership-406_18%20Dec%2019.docx
+	label: Leadership
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/06_Principles%20of%20Adult%20Learners-406_18%20Dec%2019.docx
+	label: Principles of Adult Learners
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/07_Things%20We%20Know%20For%20Sure%20About%20Adult%20Learning-406_18%20Dec%2019.doc
+	label: Things We Know For Sure About Adult Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/08_Teaching%20Mistakes-406_18%20Dec%2019.doc
+	label: Teaching Mistakes
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/09_Self%20Monitoring-406_18%20Dec%2019.doc
+	label: Self-Monitoring
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/10_Tips%20for%20Engaging%20Students%20in%20Learning-406_18%20Dec%2019.docx
+	label: Tips for Engaging Students in Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/11_Verbal_Communication-406_18%20Dec%2019.doc
+	label: Verbal Communication
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/12_Non_Verbal_Communication-406_18%20Dec%2019.doc
+	label: Non-Verbal Communication
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/13_Listening_Skills-406_18%20Dec%2019.doc
+	label: Listening Skills
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/14_Controlling%20Nervousness-406_18%20Dec%2019.doc
+	label: Controlling Nervousness
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/15_Delivery%20Skills-406_18%20Dec%2019.doc
+	label: Delivery Skills
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/16_Difficult%20Behaviors%20in%20the%20Classroom-406_18%20Dec%2019.doc
+	label: Difficult Behaviors in the Classroom
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/17_Coaching-406_18%20Dec%2019.doc
+	label: Coaching
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/18_Alternatives%20to%20Lectures-406_18%20Dec%2019.docx
+	label: Alternatives to Lectures
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/19_Activities%20to%20Enhance%20a%20Theory%20Lesson-406_18%20Dec%2019.docx
+	label: Activities to Enhance a Theory Lesson
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/20_Classroom%20Set-up-406_18%20Dec%2019.doc
+	label: Classroom Set-Up
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/21_Case_Study-406_18%20Dec%2019.doc
+	label: Case Study
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/22_On-Site%20Visit-406_18%20Dec%2019.doc
+	label: On-Site Visit
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/23_Guided%20Discussion-406_18%20Dec%2019.doc
+	label: Guided Discussion
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/24_Gaming-406_18%20Dec%2019.doc
+	label: Gaming
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/25_Independent%20Study-406_18%20Dec%2019.doc
+	label: Independent Study
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/26_Mind%20Mapping-406_18%20Dec%2019.doc
+	label: Mind Mapping
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/27_Behavior%20Modelling-406_18%20Dec%2019.doc
+	label: Behavior Modelling
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/28_Peer%20Learning-406_18%20Dec%2019.doc
+	label: Peer Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/29_Role%20Play-406_18%20Dec%2019.doc
+	label: Role Play
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/30_Accelerating%20Expertise%20with%20Scenario-based%20Learning-406_18%20Dec%2019.pdf
+	label: Accelerating Expertise with Scenario-Based Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/31_Scenario-based%20Learning-406_18%20Dec%2019.docx
+	label: Scenario-Based Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/32_Simulation-406_18%20Dec%2019.doc
+	label: Simulation
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/33_Small%20Group%20Activity-406_18%20Dec%2019.doc
+	label: Small Group Activity
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/34_Tutorial-406_18%20Dec%2019.doc
+	label: Tutorial
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/35_Stress%20Tolerance-406_18%20Dec%2019.docx
+	label: Stress Tolerance
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/36_Gagne's%20Nine%20Events%20of%20Instruction-406_18%20Dec%2019.docx
+	label: Gagne's Nine Events of Instruction
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/37_Gagne%E2%80%99s%20Nine%20Events%20of%20Instruction,%20the%20Lesson%20Plan%20and%20Activities-406_18%20Dec%2019.docx
+	label: Gagne's Nine Events of Instruction, the Lesson Plan and Activities
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/38_Principles%20of%20Instruction%20(ICEPAC)-406_18%20Dec%2019.docx
+	label: Principles of Instruction (ICEPAC)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/39_Principles%20of%20Instruction%20and%20Gagne%E2%80%99s%20Nine%20Events%20of%20Instruction-406_18%20Dec%2019.docx
+	label: Principles of Instruction and Gagne's Nine Events of Instruction
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/40_Verbal%20Support-%20CREST%20Model-406_18%20Dec%2019.docx
+	label: Verbal Support - CREST Model
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/41_Good%20Listening%20Skills-%20LADDER%20Model-406_18%20Dec%2019.docx
+	label: Good Listening Skills - LADDER Model
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/42_Questioning%20Techniques-%20APPLE%20Model-406_18%20Dec%2019.docx
+	label: Questioning Techniques - APPLE Model
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/43_Icebreakers%20and%20Energizers-406_18%20Dec%2019.docx
+	label: Icebreakers and Energizers
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/44_Inserting%20Activities%20into%20Existing%20Lesson%20Plans-406_18%20Dec%2019.docx
+	label: Inserting Activities into Existing Lesson Plans
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/45_Lesson%20Plan%20Checklist-406_18%20Dec%2019.docx
+	label: Lesson Plan Checklist
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/46_Instructional%20Performance-%20A%20Self-Evaluation-406_18%20Dec%2019.docx
+	label: Instructional Performance: A Self-Evaluation
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/47_Creating%20Effective%20Lesson%20Confirmation-406_18%20Dec%2019.docx
+	label: Creating Effective Lesson Confirmation
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/48_Implementing%20ICEPAC-406_18%20Dec%2019.docx
+	label: Implementing ICEPAC
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/49_Confirmation%20of%20Learning-406_18%20Dec%2019.docx
+	label: Confirmation of Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/50_The%20Laws%20of%20Learning-406_18%20Dec%2019.docx
+	label: The Laws of Learning
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/51_Knowledge%20Lesson%20Plan%20Template-406_18%20Dec%2019.doc
+	label: Knowledge Lesson Plan Template
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/52_Skill%20Lesson%20Plan%20Template-406_18%20Dec%2019.doc
+	label: Skill Lesson Plan Template
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/53_Lesson%20Plan%20Cover%20Sheet-406_18%20Dec%2019.doc
+	label: Lesson Plan Cover Sheet Template
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/54_Bloom's%20Taxonomy-406_18%20Dec%2019.jpg
+	label: Bloom's Taxonomy
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/55_Krawthwohl%20and%20Bloom's%20Affective%20Taxonomy-406_18%20Dec%2019.png
+	label: Krathwohl & Bloom's Affective Taxonomy
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/Instructor%20Support%20Program/56_Visual%20Aid%20Checklist-406_18%20Dec%2019.pdf
+	label: Visual Aid Checklist
+
+
+type: links
+category: Job Aids
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/prb_aide-memoire_20_sep_16.sflb.pdf
+	label: PRB Aide-Memoire
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/JTAR%20Development%20Direction.pdf
+	label: JTAR Aide-Memoire
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/406(M)%20OTS%20IIE%20Job%20Aids%20v2.pdf
+	label: IIE Job Aids
+
+
+type: links
+category: CFITES Manual
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%201.pdf
+	label: Volume 1
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%201(1).pdf
+	label: Volume 1(1)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%202.pdf
+	label: Volume 2
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%203.pdf
+	label: Volume 3
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%203(1).pdf
+	label: Volume 3(1)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%204.pdf
+	label: Volume 4
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%204(1).pdf
+	label: Volume 4(1)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%205.pdf
+	label: Volume 5
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%206.pdf
+	label: Volume 6
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%207.pdf
+	label: Volume 7
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%208.pdf
+	label: Volume 8
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%2010.pdf
+	label: Volume 10
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%2011.pdf
+	label: Volume 11
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%2011(1).pdf
+	label: Volume 11(1)
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%2012.pdf
+	label: Volume 12
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/instructor/docs/CFITES/CFITES%20Vol%2013.pdf
+	label: Volume 13
+
+
+
+type: links
+category: Useful Links
+links: =>
+	url: http://w17-wpg-avsabr2.forces.mil.ca/orders
+	label: 1 Cdn Air Div Orders
+	url: http://w17-wpg-avsabr2.forces.mil.ca/CATALOG#/courses
+	label: RCAF Training Catalogue & Calendar (QS/JTAR/OJPR repository)
+	url: http://borden.mil.ca/55/1.aspx?lang=eng
+	label: CFTDC Instructor Development Courses
+	url: https://lp-pa.forces.gc.ca/portal/
+	label: DLN Learning Portal

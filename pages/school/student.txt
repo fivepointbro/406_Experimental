@@ -1,0 +1,114 @@
+
+
+----------------------
+{{page content below}}
+
+title: Student Information
+
+
+subtitle: Welcome to 406 Squadron
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/FBTC_Course_Welcome.ppt
+	label: Welcome Brief
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/10312729_002_FR_FBTC_Course_Welcome.pptx
+	label: Welcome Brief - FR
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/PC%20Brief.pptx
+	label: PC Brief
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/10312729_001_FR_PC%20Brief.pptx
+	label: PC Brief - FR
+
+
+subtitle: 406 (M) OTS Joining Instructions
+
+
+text: 406 (M) OTS conducts training from two buildings at 12 Wing Shearwater: the Fumerton and Bing Training Center (FBTC) and 5 Building (lower base).
+
+
+subtitle: Students Course Critques
+
+
+text: Feedback is needed to evaluate the design, development and conduct of training, as well as to continually improve our training. Students will be emailed a link to a questionnaire at the appropriate time.  The feedback will then be analysed by 406 Standards personnel and the QAO who will then forward the results to other 406 personnel for information or appropriate action.
+	
+
+{{repeated items below}}
+
+
+type: links
+category: Learning Aids
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/01_Concentration-406_21%20Nov%2019.doc
+	label: Concentration
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/02_Getting%20the%20Most%20from%20Lectures-406_21%20Nov%2019.docx
+	label: Getting the Most from Lectures
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/03_Note%20Taking%20and%20In-class%20skills-406_21%20Nov%2019.docx
+	label: Note Taking and In-class Skills
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/04_Taking%20Notes%20in%20Classroom%20Lectures-406_21%20Nov%2019.docx
+	label: Taking Notes in Classroom Lectures
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/05_The%20Cornell%20System%20of%20Note%20taking-406_21%20Nov%2019.doc
+	label: The Cornell System of Note Taking
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/06_Learning%20Styles%20+%20Questionnaire-406_21%20Nov%2019.doc
+	label: Learning Styles + Questionnaire
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/07_Study%20Skills%20Inventory-406_21%20Nov%2019.docx
+	label: Study Skills Inventory
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/08_Test%20Preparation%20Checklist-406_21%20Nov%2019.doc
+	label: Test Preparation Checklist
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/09_Adaptive%20Decision%20Making-406_21%20Nov%2019.docx
+	label: Adaptive Decision Making
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/10_Analogies%20in%20Creative%20Problem%20Solving-406_21%20Nov%2019.docx
+	label: Analogies in Creative Problem Solving
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/11_Managing%20Stress-406_21%20Nov%2019.docx
+	label: Managing Stress
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/12_Problem%20Solving%20and%20Decision%20Making-406_21%20Nov%2019.docx
+	label: Problem Solving and Decision Making
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/13_Stress-%20406_21%20Nov%2019.doc
+	label: Stress
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/14_Stress%20Management-406_21%20Nov%2019.doc
+	label: Stress Management
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/15_Multitasking-%20406_21%20Nov%2019.docx
+	label: Multitasking
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/16_Basic%20Study%20Goals-406_21%20Nov%2019.doc
+	label: Basic Study Goals
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/17_Effective%20Memory%20Strategies-406_21%20Nov%2019.docx
+	label: Effective Memory Strategies
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/18_Reading%20Comprehension%20Techniques-406_21%20Nov%2019.doc
+	label: Reading Comprehension Techniques
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/19_SQ3R%20Reading%20Strategy-406_21%20Nov%2019.doc
+	label: SQ3R Reading Strategy
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/20_Remembering-406_21%20Nov%2019.docx
+	label: Remembering
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/21_Suggestions%20for%20Improving%20Reading%20Speed-406_21%20Nov%2019.doc
+	label: Suggestions for Improving Reading Speed
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/22_General%20Suggestions%20for%20Taking%20Tests-406_21%20Nov%2019.docx
+	label: General Suggestiongs for Taking Tests
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/23_Managing%20Test%20Anxiety-406_21%20Nov%2019.docx
+	label: Managing Test Anxiety
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/24_Mastering%20the%20Test-406_21%20Nov%2019.docx
+	label: Mastering the Test
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/25_General%20Test%20Preparation-406_21%20Nov%2019.docx
+	label: General Test Preparation
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/26_Anticipating%20Test%20Content-406_21%20Nov%2019.docx
+	label: Anticipating Test Content
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/27_Review%20Tools%20for%20Tests-406_21%20Nov%2019.docx
+	label: Review Tools for Tests
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/28_Organizing%20For%20Test%20Taking-406_21%20Nov%2019.docx
+	label: Organizing for Test Taking
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/29_Cramming%20and%20Emergency%20Test%20Preparation-406_21%20Nov%2019.doc
+	label: Cramming and Emergency Test Preparation
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/30_Test%20Taking%20Strategies-406_21%20Nov%2019.docx
+	label: Test Taking Strategies
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/31_Ten%20Tips%20for%20Terrific%20Test%20Taking-406_21%20Nov%2019.docx
+	label: Ten Tips for Terrific Test Taking
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/32_Test%20Anxiety-406_21%20Nov%2019.doc
+	label: Test Anxiety
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/33_Tips%20on%20Test%20Taking-406_21%20Nov%2019.doc
+	label: Tips on Test Taking
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/34_Writing%20Multiple-choice%20tests-406_21%20Nov%2019.docx
+	label: Writing Multiple Choice Tests
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/35_Managing%20Your%20Time-406_21%20Nov%2019.docx
+	label: Managing Your Time
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/36_Procrastination-406_21%20Nov%2019.docx
+	label: Procrastination
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/student/37_Time%20Management-406_21%20Nov%2019.doc
+	label: Time Management

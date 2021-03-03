@@ -61,6 +61,18 @@ path: ./flightsafety
 type: safety
 
 
+name: Air Weapons Safety
+slug: aws
+path: ./aws
+type: safety
+
+
+name: Environment Safety
+slug: envsafety
+path: ./envsafety
+type: safety
+
+
 name: Operational Training Flight
 slug: otf
 path: ./otf
@@ -101,3 +113,21 @@ name: Master Technical Library
 slug: mtl
 path: ./mtl
 type: ops
+
+
+name: CH148 Standards
+slug: standards
+path: ./standards
+type: school
+
+
+name: Instructor Info
+slug: instructor
+path: ./instructor
+type: school
+
+
+name: Student Info
+slug: student
+path: ./student
+type: school

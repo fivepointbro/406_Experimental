@@ -8,7 +8,7 @@ Only things below the "page content below" tag will be displayed
 title: Graphic Design Center
 
 
-text: Responsible for graphic designs for 406 Squadron. Can process print requests (Cyclone, Sea King training photos, Student study guides, schematics, Training Plans or handbooks). Also has a graphic arts capability and can design posters, training aids, and learning aids with the use of a large scale printer and laminator. The above services are requested using the <a href="docs/graphic-design-request-form.docx">DCC Request Form</a>.
+text: Responsible for graphic designs for 406 Squadron. Can process print requests (Cyclone, Sea King training photos, Student study guides, schematics, Training Plans or handbooks). Also has a graphic arts capability and can design posters, training aids, and learning aids with the use of a large scale printer and laminator. The above services are requested using the <a href="http://shearwater.mil.ca/en/406sqn/trainingflights/graphic-design/docs/graphic-design-request-form.docx">DCC Request Form</a>.
 
 
 subtitle: Location

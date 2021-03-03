@@ -1,0 +1,83 @@
+Use this upper section to write notes to yourself or other site contributors
+None of this will appear on the page, so don't worry about it
+Only things below the "page content below" tag will be displayed
+
+----------------------
+{{page content below}}
+
+title: 406 (M) OTS Environmental Safety
+
+
+subtitle: 406 (M) OTS Environmental Policy
+
+
+image: =>
+	url: ./images/CO_env_safety.jpg
+	classes: d-block mx-auto
+	width: 100%
+	description: CO's environmental safety policy
+
+
+subtitle: Links
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/safety/environmental/Environmental%20Management%20System/406_EMS_Master_Version_2020.pdf
+	label: 406 (M) OTS Environmental Management System
+	url: http://shearwater.mil.ca/en/safety/environmental/index.asp
+	label: 12 Wing Environmental Home Page
+	url: http://halifax.mil.ca/MarlantSafetyEnvironment/
+	label: Formation Environmental Home Page
+	url: http://shearwater.mil.ca/en/safety/environmental/docs/videos/videos.asp
+	label: Environmental Video Library
+	url: http://vcds.mil.ca/dsafeg/promotiv/guides/WHMISguide/00Native/whmisguide_e.pdf
+	label: WHMIS Guide
+	url: http://shearwater.mil.ca/en/safety/environmental/spill-procedures.asp
+	label: 12 Wing Spill Procedures
+
+
+files: =>
+	url: //w12-shw-pv00001/common/406sqn/Unit Safety/General Safety/Committee Members/Members.docx
+	label: Committee Members
+
+
+subtitle: Location
+
+
+text: F&BTC, SH 330, Room 317
+
+
+subtitle: Contacts
+
+{{repeated items below}}
+
+type: contact card
+position: U Env O
+rank: WO
+name: Brayall
+phone: 902-720-4209
+email: corey.brayall@forces.gc.ca
+
+
+type: contact card
+position: D/UGSO
+rank: MWO
+name: Savage
+phone: 902-720-2524
+email: scott.savage2@forces.gc.ca
+
+
+type: contact card
+position: U HAZMAT Coord
+rank: MCpl
+name: Skidmore
+phone: 902-720-3214
+email: Cory.Skidmore@forces.gc.ca
+
+
+type: contact card
+position: U HAZMAT Coord
+rank: Cpl
+name: Gwilliam
+phone: 902-720-3214
+email: david.gwilliam@forces.gc.ca

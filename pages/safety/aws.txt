@@ -1,0 +1,72 @@
+
+
+----------------------
+{{page content below}}
+
+title: 406 Air Weapons Safety
+
+
+subtitle: Air Weapons Safety Policy
+
+
+text: The intent of the Air Weapons Safety Program is to supplement the 12 Wing program and applicable Canadian Forces Technical Orders. It is also intended to deal with armament functions specific to 406 (M) OTS. In the event of conflicting information, the appropriate CFTOs shall be the governing document. This safety program encompasses all maintenance, operational, and training activities conducted by 406 (M) OTS personnel involving air weapons or explosive aircraft components. As almost all accidents involving air weapons are preventable, it is vital that all personnel strictly adhere to authorized air weapons and explosive orders and standards.
+
+
+subtitle: Objectives
+
+
+text: The objectives of the 406 (M) OTS AWSP are twofold
+
+
+list: =>
+	item: To enhance operational effectiveness by preventing the accidental loss of resources; and
+	item: To maximize personnel safety and injury prevention during all armament functions by eliminating accidents and incidents resulting from unsafe conditions and/or a lack of explosive safety awareness.
+
+
+subtitle: Standards
+
+
+text: Safety standards must be enforced in order to meet the objectives of this program.
+
+
+list: =>
+	item: Facilities shall be safe and adequate for the activities being performed;
+	item: Materials/tools shall be safe and authorized by the appropriate authority;
+	item: Personnel shall be qualified and authorized to conduct air weapons and explosives related tasks; and
+	item: Procedures and Standing Operating Procedures (SOPs) shall be clear, current, safe, and approved.
+
+
+subtitle: Training
+
+
+text: Also proper training, education, and awareness are critical elements in protecting Squadron personnel and resources from accidental loss. All personnel directly involved in explosives related activities or who may come into contact with explosive devices during the conduct of their regular duties shall be provided with the appropriate training for those tasks.
+All Squadron personnel shall receive an annual AWS awareness briefing as part of ground training sessions.
+Other Base/Wing and local emergency response organizations may be called upon in the event of an AWS occurrence.
+Suggested changes or amendments to the program shall be directed to the 406 (M) OTS AWSO or AWS NCM and dealt with by the AWSO and UFSO.
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/safety/weapons-safety/
+	label: 12 Wing Air Weapons Safety
+
+
+subtitle: Contacts
+	
+
+{{repeated items below}}
+
+
+type: contact card
+position: Air Weapons Officer
+rank: Sgt
+name: Cossette
+phone: 720-1036
+email: Stephane.Cossette@forces.gc.ca
+
+
+type: contact card
+position: Air Weapons NCM
+rank: MCpl
+name: Dumont
+phone: 720-4202
+email: Dave.Dumont@forces.gc.ca

@@ -1,0 +1,133 @@
+
+
+----------------------
+{{page content below}}
+
+title: CH148 Standards
+
+
+text: 406 (M) OTS CH148 Standards is responsible to the CO for the following
+
+
+list: =>
+	item: Providing all courses an initial Standards brief, concerning progress monitoring, the role of 406 (M) OTS Standards, and course critique guidance;
+	item: Conduct training quality assurance through Enabling Check (EC) and Performance Check (PC) monitoring of Aircrew and Technician training delivered at 406;
+	item: Conducting Continuous Improvement (CI) of training, in the form of MH IIE courseware and EC amendments;
+	item: Conducting regular course critiques and identification/resolution of critique action items;
+	item: Ensuring the unit’s Aircrew Files are maintained IAW FOM and Wing Orders;
+	item: Adherence to the guidelines of the Canadian Forces Individual Training & Education System (CFITES), to include
+	item: a) training/courseware compliance monitoring;
+	item: b) oversight of course evaluation procedures;
+	item: c) instructor development and proficiency monitoring;
+	item: d) staffing observations for the continuous improvement of training/training documentation; and
+	item: Debriefing of observations following compliance and instructor monitoring sessions, as required.
+
+
+subtitle: Links
+
+
+links: =>
+	url: http://shearwater.mil.ca/en/406sqn/trainingflights/ch148-standards/documents/index.asp
+	label: Exams/Publications/Links
+	url: 
+	label: RCAF Training Catalogue (QS Database)
+	url: 
+	label: 1 Canadian Air Division Orders
+	url: 
+	label: 2 CAD Training Development
+	url: 
+	label: PRB Aide-Memoire
+	url: 
+	label: Guidebook for new Canadian Forces Instructors
+	url: 
+	label: CH124 TEPs (***Info Only***)
+	url: 
+	label: FETP
+
+
+text: CFITES Volumes are available under Resources - Instructor Information
+
+
+subtitle: Location
+
+
+text: FBTC, SH330, Room 341 (Aircrew)
+FBTC, SH330, Room 308 (Technical)
+
+
+subtitle: Contacts
+	
+
+{{repeated items below}}
+
+
+type: contact card
+position: Standards Officer
+rank: Maj
+name: Power
+phone: 720-2418
+email: Adam.Power@forces.gc.ca
+
+
+type: contact card
+position: TDO
+rank: Lt(N)
+name: Townsend
+phone: 720-2474
+email: Cynthia.Townsend@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Standards Pilot
+rank: Capt
+name: Barkhouse
+phone: 720-1264
+email: Matthew.Barkhouse@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Standards ACSO
+rank: Capt
+name: Langille
+phone: 720-4211
+email: david.langille@forces.gc.ca
+
+
+type: contact card
+position: Aircrew Standards AES OP
+rank: WO
+name: Markowski
+phone: 720-4195
+email: Benjamin.Markowski@forces.gc.ca
+
+
+type: contact card
+position: Technical Standards Supervisor
+rank: WO
+name: Lockhart
+phone: 720-4493
+email: Patricia.Lockhart@forces.gc.ca
+
+
+type: contact card
+position: Technical Standards Sgt
+rank: Sgt
+name: Delaney
+phone: 720-2463
+email: James.Delaney@forces.gc.ca
+
+
+type: contact card
+position: Technical Standards Sgt
+rank: Sgt
+name: Poirier
+phone: 720-1750
+email: JENNIFER.POIRIER@forces.gc.ca
+
+
+type: contact card
+position: Technical Standards Sgt
+rank: Sgt
+name: Allen
+phone: 720-3214
+email: Gary.Allen3@forces.gc.ca

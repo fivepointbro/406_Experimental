@@ -28,11 +28,6 @@ links: =>
 	label: Flight Safety Occurrence Report (215-E)
 
 
-files: =>
-	url: //w12-shw-pv00001/common/406sqn/admin & hq/5.  sqn orderly room (sor)/webpage/recall list/recall list.xlsx
-	label: Test file link (downloads the recall list)
-
-
 subtitle: Quick Links
 
 
