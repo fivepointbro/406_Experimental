@@ -44,26 +44,67 @@ list: =>
 text: - MTF A/R to meet demand
 
 
-subtitle: Courses Currently Running
-
-
-text: <strong>Technical</strong>
-
-
-list: =>
-	item: Course #1
-	item: Course #2
-	item: Course #3
-
-
-text: <strong>Aircrew</strong>
-
-
-list: =>
-	item: Course #1
-	item: Course #2
-	item: Course #3
-
-
 {{repeated items below}}
 
+type: courses
+heading: Technical
+courselist: =>
+	name: CH148 AVS CT Type Course
+	code: AJKQ
+	serial: 2101
+	start: 25/01/2021
+	end: 07/05/2021
+	students: 8
+	name: CH148 AVS CT Type Course
+	code: AJKQ
+	serial: 2102
+	start: 25/01/2021
+	end: 07/05/2021
+	students: 8
+
+
+type: courses
+heading: Aircrew
+courselist: =>
+	name: MH SENSO
+	code: AJPF
+	serial: SENSO CT4
+	start: 11/01/2020
+	end: 15/04/2021
+	students: 1
+	name: Utility Crew Member
+	code: UCM
+	serial: 1907W
+	start: 13/01/2020
+	end: -
+	students: 2
+	name: Utility Crew Member
+	code: UCM
+	serial: 2001
+	start: 01/04/2020
+	end: -
+	students: 1
+	name: Utility Crew Member
+	code: UCM
+	serial: 2002
+	start: 08/09/2020
+	end: 01/05/2021
+	students: 3
+	name: MH SENSO
+	code: AJPF
+	serial: SENSO CT6
+	start: 08/09/2020
+	end: 15/04/2021
+	students: 6
+	name: CH148 MARTIME HELICOPTER PILOT
+	code: AJPG
+	serial: PILOT CT9
+	start: 08/09/2020
+	end: 21/06/2021
+	students: 6
+	name: MH SENSO
+	code: AJPF
+	serial: 2003
+	start: 01/12/2020
+	end: 15/04/2021
+	students: 1

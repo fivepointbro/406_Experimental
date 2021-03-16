@@ -5,6 +5,8 @@
 :root[color-mode=light] {
     --primary-color: #20558a;
     --secondary-color: #0b5ed7;
+    --primary-color-clear: rgba(33,37,41,0.1);
+    --secondary-color-clear: rgba(11,94,215,0.1);
     --background: #fff;
     --view-bg: #fff;
     --modal-bg: rgba(255,255,255,0.92);
@@ -24,6 +26,8 @@
 :root[color-mode=dark] {
     --primary-color: #78a3cf;
     --secondary-color: #7494b5;
+    --primary-color-clear: rgba(120,163,207,0.3);
+    --secondary-color-clear: rgba(116,148,181,0.3);
     --background: #121212;
     --view-bg: rgba(255,255,255,0.1);
     --modal-bg: rgba(40,40,40,0.92);
@@ -349,4 +353,28 @@ ul {
 	text-align: center;
 	word-wrap: break-word;
 	margin: 10px;
+}
+.course-list{
+	width: 90%;
+	margin: 15px auto;
+}
+.course-table{
+	text-align: center;
+	table-layout: fixed;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.course-table td{
+	padding: 10px;
+}
+.course-table th{
+	padding: 10px;
+}
+.course-list tbody tr:nth-child(odd) {
+  background-color: var(--primary-color-clear)
+}
+
+.course-list tbody tr:nth-child(even) {
+  background-color: var(--secondary-color-clear)
 }

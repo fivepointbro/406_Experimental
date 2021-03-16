@@ -224,6 +224,13 @@ export default class Helper {
                     child.append(document.createElement("BR"))
                 })
                 break
+            case 'courses':
+            	console.log(object)
+            	parent = self.grab('#linksAccordion', sender)
+            	child = self.make('course-list')
+            	child.setCourses(object, index)
+            	parent.append(child)
+            	break
             default:
                 console.log('Object Type In Repeats Not Understood')
         }
@@ -238,7 +245,7 @@ export default class Helper {
             parent.removeChild(parent.firstChild);
         };
     };
-    
+
     FOLDR(folder) {
     	const url = encodeURIComponent(folder)
     	return fetch('folder.asp?folder="' + url + '"')
@@ -255,7 +262,7 @@ export default class Helper {
     	} else {
     		filename = file.split('/')
     		filename = filename[filename.length-1]
-    	} 	
+    	}
         return fetch('download.asp?file=' + url)
             .then(response => {
                 return response.blob();

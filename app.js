@@ -6,6 +6,7 @@ import StaffCard from './_webcomponents/card/card.js';
 import ContactCard from './_webcomponents/contactcard/contactcard.js';
 import Accordion from './_webcomponents/accordion/accordion.js';
 import Downloads from './_webcomponents/downloads/downloads.js';
+import Course from './_webcomponents/course/course.js';
 //********** [Views] These are our page templates
 import Mainview from './_views/main.js';
 
@@ -84,7 +85,7 @@ class Router {
         if (bar) {
             const hidebar = new bootstrap.Collapse(bar, { hide: true });
         }
-        // the router has now loaded the page, set the navbar active link to white text, and closed the navbar 
+        // the router has now loaded the page, set the navbar active link to white text, and closed the navbar
         // if this is the first time we've loaded a page, we will run the function that adds special listeners
         // this changes link behavior on our site-specific links to NOT reload the page or query the server
         // this is the core function of our router, because all "views" (pages) are actually client-side
@@ -129,5 +130,7 @@ window.$ = new Helper();
 //********** [Header & Footer] Since these are hard-coded on the HTML page, they need to be imported before starting the app
 import('./_common/navbar/navbar.js');
 import('./_common/footer/footer.js');
+//********** [Tooltips] Enable tooltips
+
 //********** [App] Start the app.. no really, that's it
 const app = new Router();
