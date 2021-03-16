@@ -225,7 +225,6 @@ export default class Helper {
                 })
                 break
             case 'courses':
-            	console.log(object)
             	parent = self.grab('#linksAccordion', sender)
             	child = self.make('course-list')
             	child.setCourses(object, index)
